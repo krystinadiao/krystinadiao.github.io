@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="jquery.interactive_bg.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+	<script>
+	$(document).ready(function(){
+		$(".bg").interactive_bg({
+			strength: 25,              // Movement Strength when the cursor is moved. The higher, the faster it will reacts to your cursor. The default value is 25.
+			scale:1,               // The scale in which the background will be zoomed when hovering. Change this to 1 to stop scaling. The default value is 1.05.
+			animationSpeed: "100ms",   // The time it takes for the scale to animate. This accepts CSS3 time function such as "100ms", "2.5s", etc. The default value is "100ms".
+			contain: true,             // This option will prevent the scaled object/background from spilling out of its container. Keep this true for interactive background. Set it to false if you want to make an interactive object instead of a background. The default value is true.
+			wrapContent: false         // This option let you choose whether you want everything inside to reacts to your cursor, or just the background. Toggle it to true to have every elements inside reacts the same way. The default value is false
+		});
+
+	});
+
+	$(window).resize(function() {
+		$(".wrapper > .ibg-bg").css({
+			width: $(window).outerWidth(),
+			height: $(window).outerHeight()
+		})
+	})
+
+	$(window).scroll(function(){
+		$(".follow-me-text").css("opacity", 1 - $(window).scrollTop() / 250);
+	});
+
+
+	</script>
+</head>
+<body>
+
+	<div class="wrapper bg" data-ibg-bg="bg-test.jpg">
+		<div class="main">
+
+			<div class="col-md-12">
+				<div class="header">
+					<span class="hello">&nbsp;Hello, my name is&nbsp;</span>
+					<div data-aos="fade-up" data-aos-offset="200">
+						<div class="name">
+							<span>
+								&nbsp;krystina&nbsp;
+							</span>		<br/></div>
+							<div data-aos="fade-up" data-aos-offset="200">
+								<div class="name">
+									<span>
+										&nbsp;diao&nbsp;</span>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="follow-me-text">
+								<span class="hello2">&nbsp;Follow me down to learn more about my work <i class="fa fa-angle-down" style="color:#fa9a7d;" aria-hidden="true">&nbsp;</i></span>
+							</div>
+
+						</div>
+
+
+
+					</div>
+
+
+				</div>
+
+				<div class="col-md-12">
+					<div class="col-md-6 col-md-offset-3">
+						<div data-aos="fade-up">
+							<h1><span class="hello3">&nbsp;hi&nbsp;</span></h1></div>
+
+							<div data-aos="fade-up" >
+								<div class="text-boxes">
+									I am an information systems student based in Austin, TX.<br/><br/>
+									My passion is designing beautiful, well-architected, and user-friendly interfaces, as well as
+									tinkering with development.<br/><br/>
+
+									Besides programming and designing, I love painting and drawing. My preferred mediums are oil, charcoal, and graphite.  Oh, and I am the biggest Nicki Minaj fanatic you will ever meet.
+								</div>
+							</div>
+
+							<div data-aos="fade-up">
+								<h1><span class="hello3">&nbsp;work&nbsp;</span></h1></div>
+
+
+								<div data-aos="fade-up" >
+									<div class="text-boxes">
+										Besides programming and designing, I love painting and drawing. My preferred mediums are oil, charcoal, and graphite.<br/><br/>
+										I am the biggest Nicki Minaj fanatic you will ever meet.
+									</div>
+								</div>
+
+
+							</div>
+						</div>
+
+					</div>
+
+
+
+					<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+
+					<script>
+					AOS.init({
+						easing: 'ease-out-back',
+						duration: 1000
+					});
+					</script>
+
+				</body>
+				</html>
