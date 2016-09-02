@@ -71,15 +71,31 @@ span.hello3{
   border-bottom:4px solid yellow;
 }
 
+span.hello4{
+  background-color:#fff;
+  color:#858585;
+  font-size:20px;
+  font-family:"courier";
+  border-bottom:2px solid yellow;
+  text-decoration:none!important;
+}
+
+a:hover span{
+  text-decoration:none!important;
+  border-bottom:2px solid #ffdbd0;
+  cursor:pointer;
+}
+
+
 .follow-me-text{
   position:absolute;
-padding-top:10px;
- padding-bottom:10px;
- width:100%;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:100%;
 }
 .follow-me-text{
-top:70%;
- transform: translateY(-100%);
+  top:70%;
+  transform: translateY(-100%);
 }
 
 .main {
@@ -180,10 +196,22 @@ top:70%;
 }
 
 .text-boxes-img{
-  background-color:white;
+  background-color:transparent;
   padding:10px;
   margin:40px;
   font-size:14px !important;
   line-height:22px !important;
   color:#393939;
+}
+
+.text-boxes-img img{
+  cursor:pointer;
+}
+
+.hover-box{
+  display:none;
+  background-color:pink;
+  padding:50px;
+  margin:50px;
+  margin-left:-100px;
 }
