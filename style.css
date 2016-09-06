@@ -80,11 +80,17 @@ span.hello4{
   text-decoration:none!important;
 }
 
+span.hello5{
+  background-color:#fff;
+  color:#858585;
+  font-size:15px;
+  font-style:italic;
+}
+
 a:hover span{
   text-decoration:none!important;
   border-bottom:2px solid #ffdbd0;
   cursor:pointer;
-  color:black;
 }
 
 
@@ -142,6 +148,7 @@ a:hover span{
 ::selection { background: yellow; }
 
 .text-boxes{
+  text-align:left;
   background-color:white;
   padding:40px;
   margin:40px;
@@ -222,4 +229,48 @@ a.nav-active {
 
 h1{
   font-weight:normal;
+  margin-top:100px !important;
+}
+
+
+h3{
+  font-size:20px;
+  text-align:left;
+  font-family:"courier";
+  font-weight:normal;
+  margin:0;
+}
+
+.text-boxes span{
+  border-bottom:2px solid yellow;
+}
+
+b{
+  background-color:#ffdbd0;
+}
+
+a{
+  color:#aaa;
+  text-decoration:none;
+}
+
+a:hover{
+  border-bottom:2px solid yellow;
+}
+
+a.image{
+  text-decoration:none;
+}
+
+a.image:hover{
+  border:none;
+  text-decoration:none;
+}
+
+.fa{
+  color:#fa9a7d;
+}
+
+.fa:hover{
+  color:#ffdbd0;
 }
