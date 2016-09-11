@@ -50,7 +50,7 @@ body {
   font-family: 'Raleway', sans-serif !important;
   position: relative;
   margin: 0;
-  background-color:#fff !important;
+  background-color:#f6f6f6 !important;
 
 }
 
@@ -83,7 +83,13 @@ body {
   text-align:left;
   position:relative;
   height:100vh;
-  font-size:22px;
+  font-size:20px;
+}
+
+.text{
+  background-color:#fff;
+  font-size:20px;
+  padding:40px;
 }
 
 .header h1 span{
@@ -112,6 +118,10 @@ a:hover span{
 .follow-me-text{
   top:70%;
   transform: translateY(-100%);
+}
+
+.follow-me-text span{
+  background-color:#fff;
 }
 
 .main {
@@ -239,7 +249,7 @@ b{
 }
 
 a{
-  color:#c9c9c9;
+  color:#818181;
   text-decoration:none;
 }
 
@@ -274,10 +284,11 @@ a.image:hover{
   border: 1px solid #e1e1e1;
   padding: 5px;
   font-size:12px;
+  color:#818181;
 }
 
 .category:hover{
-  background-color:#f1f1f1;
+  background-color:#fff;
   -webkit-transition: 1s; /* Safari */
   transition: 1s;
   -moz-transform:1s;
@@ -344,13 +355,13 @@ a.image:hover{
 }
 .cd-horizontal-timeline .events-wrapper::before {
   left: 0;
-  background-image: -webkit-linear-gradient( left , #fff, rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+  background-image: -webkit-linear-gradient( left , #f6f6f6, rgba(246, 246, 246, 0));
+  background-image: linear-gradient(to right, #f6f6f6, rgba(246, 246, 246, 0));
 }
 .cd-horizontal-timeline .events-wrapper::after {
   right: 0;
-  background-image: -webkit-linear-gradient( right , #fff, rgba(255, 255, 255, 0));
-  background-image: linear-gradient(to left, #fff, rgba(255, 255, 255, 0));
+  background-image: -webkit-linear-gradient( right , #f6f6f6, rgba(246, 246, 246, 0));
+  background-image: linear-gradient(to left, #f6f6f6, rgba(246, 246, 246, 0));
 }
 .cd-horizontal-timeline .events {
   /* this is the grey line/timeline */
