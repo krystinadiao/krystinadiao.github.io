@@ -13,105 +13,11 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-
-	<script type="text/javascript" src="jquery.scrollTo.min.js"></script>
-
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
 
-	<script>
-	$(document).ready(function(){
-		$(".bg").interactive_bg({
-			strength: 25,              // Movement Strength when the cursor is moved. The higher, the faster it will reacts to your cursor. The default value is 25.
-			scale:1,               // The scale in which the background will be zoomed when hovering. Change this to 1 to stop scaling. The default value is 1.05.
-			animationSpeed: "100ms",   // The time it takes for the scale to animate. This accepts CSS3 time function such as "100ms", "2.5s", etc. The default value is "100ms".
-			contain: true,             // This option will prevent the scaled object/background from spilling out of its container. Keep this true for interactive background. Set it to false if you want to make an interactive object instead of a background. The default value is true.
-			wrapContent: false         // This option let you choose whether you want everything inside to reacts to your cursor, or just the background. Toggle it to true to have every elements inside reacts the same way. The default value is false
-		});
+	<script type="text/javascript" src="customscripts.js"></script>
 
-	});
-
-	$(window).resize(function() {
-		$(".wrapper > .ibg-bg").css({
-			width: $(window).outerWidth(),
-			height: $(window).outerHeight()
-		})
-	})
-
-	$(window).scroll(function(){
-		$(".follow-me-text").css("opacity", 1 - $(window).scrollTop() / 250);
-	});
-
-
-
-
-	$(document).ready(function(){
-
-		/**
-		* This part does the "fixed navigation after scroll" functionality
-		* We use the jQuery function scroll() to recalculate our variables as the
-		* page is scrolled/
-		*/
-		$(window).scroll(function(){
-			var window_top = $(window).scrollTop() + 100; // the "12" should equal the margin-top value for nav.stick
-			var div_top = $('#nav-anchor').offset().top;
-			if (window_top > div_top) {
-				$('nav').addClass('stick');
-			} else {
-				$('nav').removeClass('stick');
-			}
-		});
-
-		/**
-		* This part causes smooth scrolling using scrollto.js
-		* We target all a tags inside the nav, and apply the scrollto.js to it.
-		*/
-		$("nav a").click(function(evn){
-			evn.preventDefault();
-			$('html,body').scrollTo(this.hash, this.hash);
-		});
-
-		/**
-		* This part handles the highlighting functionality.
-		* We use the scroll functionality again, some array creation and
-		* manipulation, class adding and class removing, and conditional testing
-		*/
-		var aChildren = $("nav li").children(); // find the a children of the list items
-		var aArray = []; // create the empty aArray
-		for (var i=0; i < aChildren.length; i++) {
-			var aChild = aChildren[i];
-			var ahref = $(aChild).attr('href');
-			aArray.push(ahref);
-		} // this for loop fills the aArray with attribute href values
-
-		$(window).scroll(function(){
-			var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
-			var windowHeight = $(window).height(); // get the height of the window
-			var docHeight = $(document).height();
-
-			for (var i=0; i < aArray.length; i++) {
-				var theID = aArray[i];
-				var divPos = $(theID).offset().top; // get the offset of the div from the top of page
-				var divHeight = $(theID).height(); // get the height of the div in question
-				if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
-					$("a[href='" + theID + "']").addClass("nav-active");
-				} else {
-					$("a[href='" + theID + "']").removeClass("nav-active");
-				}
-			}
-
-			if(windowPos + windowHeight == docHeight) {
-				if (!$("nav li:last-child a").hasClass("nav-active")) {
-					var navActiveCurrent = $(".nav-active").attr("href");
-					$("a[href='" + navActiveCurrent + "']").removeClass("nav-active");
-					$("nav li:last-child a").addClass("nav-active");
-				}
-			}
-		});
-	});
-
-
-
-	</script>
 </head>
 <body>
 
@@ -120,192 +26,190 @@
 
 			<div class="col-md-12">
 				<div class="header">
-					<span class="hello">&nbsp;Hello, my name is&nbsp;</span>
 					<div data-aos="fade-up" data-aos-offset="200">
-						<div class="name">
-							<span>
-								&nbsp;krystina&nbsp;
-							</span>		<br/></div>
-							<div data-aos="fade-up" data-aos-offset="200">
-								<div class="name">
-									<span>
-										&nbsp;diao&nbsp;</span>
-									</div>
-								</div>
-							</div>
 
-
-
-							<div class="follow-me-text">
-								<span class="hello2">&nbsp;Follow me down to learn more about my work <i class="fa fa-angle-down" aria-hidden="true">&nbsp;</i></span>
-							</div>
+						<h1><span>Krystina Diao<span></h1>
+							Information systems student who loves designing, creating, developing, and analyzing.
+							<br/><br/>
+							I also enjoy trying all kinds of food, rubbing my dog's belly, and rocking out to the newest
+							Nicki Minaj single.
 
 						</div>
 
 
 
+						<div class="follow-me-text">
+							Follow me down to learn more about my work <i class="fa fa-angle-down" aria-hidden="true"></i>
+						</div>
+
 					</div>
+
 
 
 				</div>
 
-				<div class="col-md-12">
 
-					<div class="col-md-3">
-						<div id="sidebar">
-							<div id="nav-anchor"></div>
-							<nav>
-								<ul>
-									<li><a href="#about">&nbsp;about&nbsp;</a></li>
-									<li><a href="#experiences">&nbsp;experiences / resume&nbsp;</a></li>
-									<li><a href="#portfolio">&nbsp;portfolio&nbsp;</a></li>
-									<li><a href="#contact">&nbsp;contact&nbsp;</a></li>
-								</ul>
-							</nav>
+			</div>
+
+			<div class="col-md-12">
+
+
+				<div class="main">
+					<section class="cd-horizontal-timeline">
+						<div data-aos="fade-up">
+							<div class="timeline">
+								<div class="events-wrapper">
+									<div class="events">
+										<ol>
+											<li><a href="#0" data-date="30/04/2016">May 2015</a></li>
+											<li><a href="#0" data-date="20/05/2016">May 2016</a></li>
+											<li><a href="#0" data-date="25/05/2016">May 2016</a></li>
+											<li><a href="#0" data-date="05/06/2016" class="selected">August 2016</a></li>
+										</ol>
+
+										<span class="filling-line" aria-hidden="true"></span>
+									</div> <!-- .events -->
+								</div> <!-- .events-wrapper -->
+
+								<ul class="cd-timeline-navigation">
+									<li><a href="#0" class="prev inactive">Prev</a></li>
+									<li><a href="#0" class="next">Next</a></li>
+								</ul> <!-- .cd-timeline-navigation -->
+							</div> <!-- .timeline -->
 						</div>
+						<div class="events-content">
+							<ol>
+								<li data-date="30/04/2016">
+									<h2>Tape Solutions</h2>
+									<em><Span>Operations Intern</span></em>
+										<p>
+											<span class="category">Marketing / Branding</span>
+											<span class="category">Marketing Analytics</span>
+											<span class="category">Operations Management</span>
+										</p><br/>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+										</p>
+									</li>
+
+									<li data-date="20/05/2016">
+										<h2>The Johnson Center for Child Health & Development</h2>
+										<em><span>Web Development Intern</span></em>
+										<p>
+											<span class="category">Marketing / Branding</span>
+											<span class="category">Visual Design</span>
+											<span class="category">Wordpress</span>
+										</p><br/>
+
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+										</p>
+									</li>
+
+									<li data-date="25/05/2016">
+										<h2>Bazaarvoice</h2>
+										<em><span>Traning Analyst Intern</span></em>
+										<p>
+											<span class="category">Interface Design</span>
+											<span class="category">Analyst</span>
+											<span class="category">Product Knowledge</span>
+										</p><br/>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+										</p>
+									</li>
+
+									<li  class="selected" data-date="05/06/2016">
+										<h2>Bazaarvoice</h2>
+										<em><span>Product Design / Analyst Intern</span></em>
+
+										<p>
+											<span class="category">UX Design</span>
+											<span class="category">Engineering Ops</span>
+											<span class="category">Business Analyst</span>
+											<span class="category">Product Management</span>
+											<span class="category">Product Knowledge</span>
+										</p><br/>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+										</p>
+									</li>
+
+
+								</ol>
+							</div> <!-- .events-content -->
+
+
+							<div data-aos="fade-up">
+								To view my full resume, please click <a href="https://drive.google.com/file/d/0BybA6IAhol2EQmlFX0NDTjJ6aUk/view?usp=sharing" target="_blank" class="highlight">this link</a>.
+							</div>
+						</section>
+
 					</div>
 
-					<div class="col-md-6 ">
-
-
-						<div class="contain">
-							<section id="about">
-								<div data-aos="fade-up">
-
-									<h1><span class="hello3">&nbsp;你好&nbsp;</span></h1></div>
-
-									<div data-aos="fade-up" >
-
-										<div class="text-boxes">
-											<center>
-												I am an information systems student based in Austin, TX.<br/><br/>
-												My passion is designing beautiful, well-architected, and user-friendly interfaces, as well as
-												tinkering with development.<br/><br/>
-
-												Besides programming and designing, I love painting and drawing. My preferred mediums are oil, charcoal, and graphite.  Oh, and I am the biggest Nicki Minaj fanatic you will ever meet.
-											</center>
-
-
-										</div>
-
-									</div>
-								</div>
-							</section>
 
 
 
 
-							<div class="contain">
-								<section id="experiences">
-									<div data-aos="fade-up">
-										<h1><span class="hello3">&nbsp;experiences / resume&nbsp;</span></h1>
-										<span class="hello5">To view my full resume, please click <a href="https://drive.google.com/file/d/0BybA6IAhol2EQmlFX0NDTjJ6aUk/view?usp=sharing" target="_blank">this link</a>.</span>
+
+
+					<div class="contain">
+
+						<section id="portfolio">
+							<div data-aos="fade-up">
+								<h2>Portfolio</h2>
+								<span class="hello5">More information coming soon</span></div>
+
+
+ugh
+
+
+										</section>
 									</div>
 
-									<div data-aos="fade-up">
-										<div class="text-boxes">
-											<h3><span>Bazaarvoice</span></h3><br/>
-											My first real internship at a tech company! Bazaarvoice has helped me strenghten my passion in analytics, design, and
-											development.  With mentors ranging from <b>Product Trainers</b> and <b>UX Designers</b> to <b>Product Managers</b> and <b>Business Analysts</b>, I have
-											been given the opportunity to grow and learn so much, beyond what I can write on a paper resume.  I am thankful and grateful for
-											my mentors and experiences.<br/><br/>
-											I have worked on projects such as analyzing the effectivenes of a newly implemented knowledge base, creating JavaScript data visualizations,
-											designing UI/UX elements, and generating reports on SQL and Tableau.<br/><br/>
-											<a href="http://blog.developer.bazaarvoice.com/2016/08/10/intern-demo-day/" target="_blank">Intern Demo Day Blog</a>
-											/ <a href="http://connectionskb.herokuapp.com" target="_blank">Knowledge Base Analytics Summary</a>
-											/ <a href="https://drive.google.com/file/d/0BybA6IAhol2EQmlFX0NDTjJ6aUk/view?usp=sharing" target="_blank">Resume</a>
-										</div>
-
-
-
-									</div></section>
 
 
 									<div class="contain">
-
-										<section id="portfolio">
+										<section id="contact2">
 											<div data-aos="fade-up">
-												<h1><span class="hello3">&nbsp;portfolio&nbsp;</span></h1>
-												<span class="hello5">More information coming soon</span></div>
+
+												<h1><span class="hello3">&nbsp;contact&nbsp;</span></h1></div>
 
 												<div data-aos="fade-up" >
-													<div class="text-boxes-img">
-														<a class="image" href=""><img src="previews/bv01.png" width="100%"/><br/><br/>
-															<span class="hello4">Bazaarvoice Interface Design Project</span><br/>
-															<span class="hello2">UI / UX</span>
-														</div>
-													</div>
 
-													<div data-aos="fade-up" >
-														<div class="text-boxes-img">
-															<a class="image" href=""><img src="previews/bv02.png" width="100%"/></a><br/><br/>
-															<span class="hello4">Bazaarvoice Knowledge Base Analysis</span><br/>
-															<span class="hello2">Data Visualization, Data Analysis</span>
-														</div>
-													</div>
+													<div class="text-boxes">
+														<center>
+															Feel free to get in touch with me at any of the following outlets whether it's to learn more about my personal projects, full-time opportunities after May 2017, or any possible collaborations!
+															<br/><br/>
+															<a href="http://github.com/krystinadiao" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>&nbsp;&nbsp;
+															<a href="https://www.linkedin.com/in/krystinadiao" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
+															<a href="http://instagram.com/krvstina" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
+															<a href="mailto:krystinadiao@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+														</center>
 
 
-													<div data-aos="fade-up" >
-														<div class="text-boxes-img">
-															<a class="image" href=""><img src="previews/temp-kdc.png" width="100%"/></a><br/><br/>
-															<span class="hello4">Korean Dance Crew</span><br/>
-															<span class="hello2">UI / UX, Branding, Visual Design</span>
-														</div>
 													</div>
 
-													<div data-aos="fade-up" >
-														<div class="text-boxes-img">
-															<a class="image" href=""><img src="previews/temp-draw.png" width="100%"/></a><br/><br/>
-															<span class="hello4">Drawing Portfolio</span><br/>
-															<span class="hello2">Visual Art</span>
-														</div>
-													</div>
-												</section>
+													<br/><br/><br/><br/><br/><br/><br/>
+												</div>
 											</div>
+										</section>
 
-
-
-											<div class="contain">
-												<section id="contact">
-													<div data-aos="fade-up">
-
-														<h1><span class="hello3">&nbsp;contact&nbsp;</span></h1></div>
-
-														<div data-aos="fade-up" >
-
-															<div class="text-boxes">
-																<center>
-																	Feel free to get in touch with me at any of the following outlets whether it's to learn more about my personal projects, full-time opportunities after May 2017, or any possible collaborations!
-																		<br/><br/>
-																	<a href="http://github.com/krystinadiao" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>&nbsp;&nbsp;
-																	<a href="https://www.linkedin.com/in/krystinadiao" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;
-																	<a href="http://instagram.com/krvstina" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>&nbsp;&nbsp;
-																	<a href="mailto:krystinadiao@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-																</center>
-
-
-															</div>
-
-																<br/><br/><br/><br/><br/><br/><br/>
-														</div>
-													</div>
-												</section>
-
-											</div>
-										</div>
 
 									</div>
 
+								</div>
 
+								<script src="jquery.mobile.custom.min.js"></script>
+								<script src="timeline.js"></script>
+								<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
 
-									<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+								<script>
+								AOS.init({
+									easing: 'ease-out-back',
+									duration: 1000
+								});
+								</script>
 
-									<script>
-									AOS.init({
-										easing: 'ease-out-back',
-										duration: 1000
-									});
-									</script>
-
-								</body>
-								</html>
+							</body>
+							</html>
