@@ -158,6 +158,7 @@ a:hover span{
   font-family:arial;
   color:#b6b6b6;
   text-align:center;
+  max-width:1500px;
 }
 
 .contain{
@@ -351,7 +352,6 @@ a.image:hover{
   position: relative;
   height: 100px;
   width: 90%;
-  max-width: 800px;
   margin: 0 auto;
 }
 .cd-horizontal-timeline .events-wrapper {
