@@ -175,8 +175,8 @@ a:hover span{
 }
 
 .text-boxes-img{
-  background-color:transparent;
-  padding:10px;
+  background-color:#dbdbdb;
+  padding:40px;
   margin:40px;
   font-size:14px !important;
   line-height:22px !important;
@@ -229,7 +229,7 @@ h1{
 
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   font-family:"Raleway";
   color:#333;
 }
@@ -257,13 +257,14 @@ b{
 }
 
 a{
-  color:#818181;
+  color:#b1b1b1;
   text-decoration:none;
 }
 
 a.highlight:hover{
   border-bottom:2px solid yellow;
 }
+
 
 a.image{
   text-decoration:none;
