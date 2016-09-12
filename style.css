@@ -1,23 +1,4 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, main {
@@ -166,13 +147,31 @@ a:hover span{
 ::-moz-selection { background: yellow; }
 ::selection { background: yellow; }
 
+
+#contact, #portfolio{
+  margin-top:100px;
+}
+
+
+#portfolio{
+  font-size: 12px;
+  font-family:arial;
+  color:#b6b6b6;
+  text-align:center;
+}
+
+.contain{
+  margin-bottom:200px;
+}
+
 .text-boxes{
-  text-align:left;
+  text-align:center;
   padding:40px;
   margin:40px;
   font-size:14px !important;
   line-height:22px !important;
   color:#393939;
+  background-color:#fff;
 }
 
 .text-boxes-img{
@@ -224,13 +223,15 @@ a.nav-active {
 
 h1{
   font-weight:normal;
-  margin-top:100px !important;
+  margin-top:50px !important;
 
 }
 
 
 h2 {
   font-size: 40px;
+  font-family:"Raleway";
+  color:#333;
 }
 
 h3{
@@ -243,6 +244,13 @@ h3{
 .text-boxes span{
   border-bottom:2px solid yellow;
 }
+
+.underline {
+  border-bottom:2px solid yellow;
+  color:#333;
+  font-size:18px;
+}
+
 
 b{
   background-color:#ffdbd0;
@@ -281,14 +289,15 @@ a.image:hover{
 
 
 .category{
-  border: 1px solid #e1e1e1;
   padding: 5px;
   font-size:12px;
   color:#818181;
+  font-family:"raleway";
+  background-color:#fff;
 }
 
 .category:hover{
-  background-color:#fff;
+  background-color:#eaeaea;
   -webkit-transition: 1s; /* Safari */
   transition: 1s;
   -moz-transform:1s;
@@ -296,7 +305,12 @@ a.image:hover{
   -o-transform:1s;
 }
 
-
+.preview{
+  border:15px solid #fff;
+  width:100%;
+  margin-top:100px;
+  background-color:#f1f1f1
+}
 
 
 .videoWrapper {
