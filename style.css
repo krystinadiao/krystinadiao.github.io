@@ -847,6 +847,10 @@ a.nav-active {
 		font-size:60px;
 	}
 
+
+	.events-content{
+		margin-left:-20px !important;
+	}
 	.text{
 		font-size:15px;
 	}
