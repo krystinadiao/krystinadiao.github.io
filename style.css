@@ -97,7 +97,7 @@ a:hover span{
   color:#6c6c6c;
 }
 .follow-me-text{
-  top:70%;
+  top:80%;
   transform: translateY(-100%);
 }
 
@@ -297,11 +297,11 @@ a.image:hover{
   font-size:12px;
   color:#656565;
   font-family:"raleway";
-  background-color:#f1f1f1;
+  background-color:#fff;
 }
 
 .category1:hover{
-  background-color:#d8d8d8;
+  background-color:#f1f1f1;
   -webkit-transition: 1s; /* Safari */
   transition: 1s;
   -moz-transform:1s;
