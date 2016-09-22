@@ -876,6 +876,12 @@ a.nav-active {
 
 	.text-boxes{
 		font-size:20px;
+		margin:10px;
 	}
 
+
+	.text-boxes img{
+	  cursor:pointer;
+		border:5px solid #ebebeb
+	}
 }
