@@ -155,7 +155,7 @@ a:hover span{
 
 #portfolio{
   font-size: 12px;
-  font-family:arial;
+  font-family:"helvetica", sans-serif;
   color:#b6b6b6;
   text-align:center;
   max-width:1500px;
@@ -173,6 +173,7 @@ a:hover span{
   line-height:22px !important;
   color:#393939;
   background-color:#fff;
+	font-family:"helvetica", sans-serif;
 }
 
 .text-boxes-img{
@@ -182,6 +183,7 @@ a:hover span{
   font-size:14px !important;
   line-height:22px !important;
   color:#393939;
+	font-family:"helvetica", sans-serif;
 }
 
 .text-boxes-img img{
@@ -228,6 +230,10 @@ h1{
 
 }
 
+span.hello3{
+	border-bottom:3px solid yellow;
+}
+
 
 h2 {
   font-size: 30px;
@@ -254,7 +260,7 @@ h3{
 }
 
 
-b{
+b.highlight{
   background-color:#ffdbd0;
 }
 
@@ -757,17 +763,70 @@ a.image:hover{
   }
 }
 
+nav {
+    width:200px;
+    background-color:transparent;
+    color:white;
+    font-family:"raleway";
+    padding:0 12px;
+    font-size:15px;
+    text-align:right;
+    text-transform:lowercase;
+		display:none;
+		margin-top:100px;
+}
 
+nav.stick {
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+    margin-top:100px;
+}
+
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+nav li {
+
+}
+
+nav li a {
+    color:#aaa;
+    background-color:white;
+    line-height:35px;
+    border-bottom:2px solid yellow;
+    text-decoration:none;
+}
+
+nav li a:hover{
+  text-decoration:none;
+  color:black;
+}
+
+a.nav-active {
+    color:black;
+}
 
 /*MEDIA*/
 
 @media screen and (max-width: 990px) {
 	.follow-me-text{
-		visibility:hidden;
+		display:none;
 	}
 
 	.whitebg{
 		margin:100px;
+	}
+
+	.nav{
+		display:none;
+	}
+
+	.sidebar{
+		display:none;
 	}
 }
 
