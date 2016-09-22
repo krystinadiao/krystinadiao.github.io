@@ -859,4 +859,12 @@ a.nav-active {
 	#portfolio{
 		font-size:20px;
 	}
+
+	.preview-right{
+		display:none;
+	}
+	.preview-left{
+		width:100%;
+	}
+
 }
