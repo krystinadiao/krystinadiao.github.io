@@ -291,6 +291,19 @@ a.image:hover{
   -o-transform:1s;
 }
 
+.arrow  {
+  color:#cacaca;
+}
+
+.arrow:hover  {
+  color:#acacac;
+  -webkit-transition: 1s; /* Safari */
+  transition: 1s;
+  -moz-transform:1s;
+  -ms-transform:1s;
+  -o-transform:1s;
+}
+
 
 .category1{
   padding: 5px;
