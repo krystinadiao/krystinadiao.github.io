@@ -1,4 +1,4 @@
-<?php include 'header.php';?>
+<?php include 'header-frontpg.php';?>
 
 	<div class="wrapper bg" data-ibg-bg="bg.jpg">
 		<div class="main" id="top">
