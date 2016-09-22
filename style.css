@@ -848,18 +848,21 @@ a.nav-active {
 	}
 
 	.text{
-		font-size:30px;
+		font-size:15px;
 	}
 
 	.header{
-		font-size:30px;
-		margin-right:100px;
+		font-size:15px;
+		margin:20px;
 	}
 
 	#portfolio{
-		font-size:20px;
+		font-size:15px;
 	}
 
+	.whitebg{
+		margin:10px;
+	}
 	.preview-right{
 		display:none;
 	}
@@ -867,4 +870,11 @@ a.nav-active {
 		width:100%;
 	}
 
+	.text-boxes{
+		font-size:20px;
+	}
+
+	.contain2{
+		display:none;
+	}
 }
