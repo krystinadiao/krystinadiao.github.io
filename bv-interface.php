@@ -1,22 +1,4 @@
-
-
-  <div class="main" id="top">
-
-    <div class="col-md-12 ">
-
-      <div class="sidebar col-md-2">
-          <div id="nav-anchor"></div>
-          <nav>
-              <ul>
-                  <li><a href="#strategy">strategy</a></li>
-                  <li><a href="#research">research / analysis</a></li>
-                  <li><a href="#design">design</a></li>
-                  <li><a href="#production">production</a></li>
-                  <li><a href="#takeaways">takeaways</a></li>
-              </ul>
-
-          </nav>
-      </div><!-- /sidebar -->
+<?php include 'header.php';?>
 
 <div class="col-md-8">
       <div data-aos="fade-up">
@@ -123,3 +105,5 @@
                 </div>
 
 </section>
+
+<?php include 'footer.php';?>
