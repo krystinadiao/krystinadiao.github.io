@@ -19,6 +19,9 @@
 
   <link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.css" type="text/css" >
 
+  <script src="jquery.nav.js"></script>
+  <script src='jquery.scrollto.js'></script>
+
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -41,10 +44,11 @@
           <div id="nav-anchor"></div>
           <nav>
               <ul>
-                  <li><a href="#research">research / analytics</a></li>
                   <li><a href="#strategy">strategy</a></li>
+                  <li><a href="#research">research / analysis</a></li>
                   <li><a href="#design">design</a></li>
                   <li><a href="#production">production</a></li>
+                  <li><a href="#takeaways">takeaways</a></li>
               </ul>
           </nav>
       </div><!-- /sidebar -->
@@ -55,80 +59,98 @@
         <a class="highlight" href="index.html#portfolio"><span class="hello4">return to home</span></a>
       </div>
 
+      <section id="strategy">
 
         <div data-aos="fade-up" >
           <div class="text-boxes">
 
-            This project belongs to a fellow Bazaarvoice intern, Andee Liao, who was assigned to create a UI to explore Bazaarvoice's EMOdb's content and functionality,
-            which was previously only accessable through command line.  My role was to create the design for the interface and implement it via HTML, CSS, and JS.<br/><br/>
+            <b>Goal</b>: Create a UI to explore a database previously only accessable through command line.  <br/><br/>
+
+            Andee Liao - Full Stack Developer<br/>
+            Krystina Diao - UI / UX
 
 
           </div></div>
 
+  </section>
 
-<section id="research">
           <div data-aos="fade-up" >
-            <div class="text-boxes-img">
-              The initial structure was very bare bones, with little to no CSS.  My role was to take this and create something with better user flow and design elements.<br/><br/>
+            <div class="text-boxes">
+              Initial structure of the site, pre-styling of any kind<br/><br/>
               <a class="image" href="bv/interface-1.jpg" data-lightbox="image-2" data-title="Before Design Implementation"><img src="bv/interface-1.jpg" alt="" width="45%"/></a>
               <a class="image" href="bv/interface-2.jpg" data-lightbox="image-2" data-title="Before Design Implementation"><img src="bv/interface-2.jpg" alt="" width="45%"/></a>
             </div>
 
 
+<section id="research">
             <div data-aos="fade-up" >
-              <div class="text-boxes-img">
-                The primary <b>user personas</b> and <b>use cases</b> would be software engineers who are familiar with the EMOdb functions.  Thus, the interface does not need much explanatory elements, but should ensure a simple and intuitive flow of information. <br/><br/>
+              <div class="text-boxes">
+                After speaking with the primary stakeholders - engineers using the DB, managers overseeing the DB - a couple personas and use cases were identified.<br/><br/>
+                The primary <b>user personas</b> and <b>use cases</b> would be software engineers who are familiar with the EMOdb functions.  Thus, the interface does not need much explanatory elements, but should ensure a simple and intuitive flow of information.
+
+                  <br/><br/>
                 <a href="bv/interface-personas.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-personas.jpg" alt="" width="85%"/></a>
+<br/><br/>
+                <span class="category">UX Research</span>
+                <span class="category">User Personas</span>
               </div>
-              <span class="category">UX Research</span>
-              <span class="category">User Personas</span>
+
             </div>
 </section>
-<section id="strategy">
-</section>
+
 
 
 <section id="design">
 
               <div data-aos="fade-up" >
-                <div class="text-boxes-img">
-                  A brief example of my logic flow and lo-fi wireframing.<br/><br/>
+                <div class="text-boxes">
+                  Logic flow and lo-fi wireframing<br/><br/>
                   <a href="bv/interface-flow.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-flow.jpg" alt="" width="45%"/></a>
                   <a href="bv/interface-lofi.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-lofi.jpg" alt="" width="45%"/></a>
+<br/><br/>
+                  <span class="category">UX Research</span>
+                  <span class="category">User Logic Flow</span>
+                  <Span class="category">Wireframing</span>
                 </div>
-                <span class="category">UX Research</span>
-                <span class="category">User Logic Flow</span>
-                <Span class="category">Wireframing</span>
+
               </div>
 
               <div data-aos="fade-up" >
-                <div class="text-boxes-img">
-                  After discussing with Andee and finalizing some points on the lo-fi wireframe, I created
-                  these hi-fi wireframes on Photoshop.  The first hi-fi shows a replica of my lo-fi ideas,
+                <div class="text-boxes">
+
+                  Changes were made throughout the wireframing process, allowing me to experience <b>rapid iteration</b>.<br/><br/>
+
+                  The first hi-fi shows a replica of my lo-fi ideas,
                   but we resulted in something more like the second image, leaning towards two main columns rather than three to keep the interface as simple and clean as possible.<br/><br/>
                   The color palette is based off of the Bazaarvoice green and a neutral secondary palette.<br/><br/>
                   <a href="bv/interface-7.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-7.jpg" alt="" width="45%"/></a>
                   <a href="bv/interface-8.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-8.jpg" alt="" width="45%"/></a>
+<br/><br/>
+                  <span class="category">UX Research</span>
+                  <span class="category">UX / UI Design</span>
+                  <Span class="category">Wireframing</span>
+                  <span class="category">Photoshop</span>
                 </div>
-                <span class="category">UX Research</span>
-                <span class="category">UX / UI Design</span>
-                <Span class="category">Wireframing</span>
-                <span class="category">Photoshop</span>
+
               </div>
 </section>
 
 
 <section id="production">
 
-                <div data-aos="fade-up" style="margin-bottom:200px" >
-                  <div class="text-boxes-img">
-                    These are screenshots of the ultimate, final interface.  As you can see, they are nearly identical to my hi-fi wireframes, proving a successful integration.<br/><br/>
+                <div data-aos="fade-up"  >
+                  <div class="text-boxes">
+                    Screenshots of the ultimate, final interface.  They are nearly identical to the hi-fi wireframes, proving a successful integration.<br/><br/>
                     <a href="bv/interface-3.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-3.jpg" alt="" width="45%"/></a>
                     <a href="bv/interface-4.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-4.jpg" alt="" width="45%"/></a>
+
+<br/><br/>
+
+                    <span class="category">HTML</span>
+                    <span class="category">CSS</span>
+                    <Span class="category">JavaScript</span>
                   </div>
-                  <span class="category">HTML</span>
-                  <span class="category">CSS</span>
-                  <Span class="category">JavaScript</span>
+
                 </div>
 
 </section>
@@ -136,7 +158,16 @@
 
 
 
+<div class="contain2 col-md-12">
 
+  <section id="footer">
+      <a href="#">Back to top</a><br/><br/>
+
+
+      © 2016 Krystina Diao
+
+    </section>
+  </div>
 
 
 
