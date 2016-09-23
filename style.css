@@ -166,7 +166,6 @@ a:hover span{
   font-family:"helvetica", sans-serif;
   color:#b6b6b6;
   text-align:center;
-  max-width:1500px;
 }
 
 .contain{
@@ -914,7 +913,7 @@ ul.takeaways{
 	}
 }
 
-@media screen and (min-width:995px) and (max-width: 1250px){
+@media screen and (min-width:990px) and (max-width: 1250px){
 	.preview-right{
 		font-size:10px;
 		padding:20px 10px 20px 10px;
