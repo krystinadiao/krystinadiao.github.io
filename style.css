@@ -24,11 +24,33 @@ table {
 }
 
 
+/** Thin */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 200;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");
+}
+
+/** Regular */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+/** Semi Bold */
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 600;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+
 body {
   height:100%;
   padding: 0;
   text-align: center;
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'San Francisco', sans-serif !important;
+	font-weight:400;
   position: relative;
   margin: 0;
   background-color:#f6f6f6 !important;
@@ -69,7 +91,7 @@ body {
 
 .text{
   background-color:#fff;
-  font-size:20px;
+  font-size:18px;
   padding:40px;
 }
 
@@ -174,7 +196,7 @@ a:hover span{
 
 .contain2{
 	margin-bottom:50px;
-	font-family:arial;
+	font-family:"san francisco" !important;
 	text-transform:uppercase;
 	font-size:10px;
 }
@@ -249,7 +271,7 @@ a.nav-active {
 h1{
   font-weight:normal;
   margin-top:50px !important;
-
+	font-family:"raleway",sans-serif;
 }
 
 span.hello3{
