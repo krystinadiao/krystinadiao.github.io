@@ -150,6 +150,10 @@ a:hover span{
 	margin-bottom:150px;
 }
 
+.container-img i{
+	font-size:18px;
+}
+
 .container-img{
 	width:100%;
 	padding:50px;
@@ -264,7 +268,7 @@ a:hover span{
 }
 
 .contain{
-  margin-bottom:200px;
+	overflow:hidden;
 }
 
 .contain2{
