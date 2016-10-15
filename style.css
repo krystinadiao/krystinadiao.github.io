@@ -49,7 +49,7 @@ body {
   height:100%;
   padding: 0;
   text-align: center;
-  font-family: 'San Francisco', sans-serif !important;
+  font-family: 'Helvetica', sans-serif !important;
 	font-weight:400;
   position: relative;
   margin: 0;
@@ -262,7 +262,7 @@ a:hover span{
 
 #portfolio{
   font-size: 12px;
-  font-family:"san francisco", sans-serif;
+  font-family:"Helvetica", sans-serif;
   color:#b6b6b6;
   text-align:center;
 }
@@ -273,7 +273,7 @@ a:hover span{
 
 .contain2{
 	margin-bottom:50px;
-	font-family:"san francisco" !important;
+	font-family:"Helvetica" !important;
 	text-transform:uppercase;
 	font-size:10px;
 }
@@ -303,7 +303,7 @@ a:hover span{
   line-height:22px !important;
   color:#393939;
   background-color:#fff;
-	font-family:"san francisco", sans-serif;
+	font-family:"Helvetica", sans-serif;
 }
 
 .text-boxes img{
@@ -349,7 +349,7 @@ h1{
   font-weight:bold;
 	font-size:40px !important;
   margin-top:50px !important;
-	font-family:"san francisco",sans-serif;
+	font-family:"Helvetica",sans-serif;
 }
 
 span.hello3{
@@ -393,7 +393,7 @@ h3{
 h4{
 	font-size:40px;
 	text-align:left;
-	font-family:"san francisco";
+	font-family:"Helvetica";
 	margin: 30px 0px;
 	font-weight:bold;
 }
@@ -533,16 +533,16 @@ a.image:hover{
 
 header {
 		text-align:left;
-
 		background-color: rgba(255, 255, 255, 0.8);
 		padding: 20px;
+		padding-left:50px;
     height:80px;
     position: fixed;
     top: 0;
     transition: top 0.5s ease-in-out;
     width: 100%;
 		z-index:999999;
-		font-family:"san francisco";
+		font-family:"Helvetica";
 		font-size:24px;
 		font-weight:bold;
 }
@@ -1120,5 +1120,10 @@ ul.takeaways{
 	.text-boxes img{
 	  cursor:pointer;
 		border:5px solid #ebebeb
+	}
+
+	header {
+			text-align:center;
+			padding-left:0px;
 	}
 }
