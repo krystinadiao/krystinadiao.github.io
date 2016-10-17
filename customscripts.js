@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
   $(".bg").interactive_bg({
     strength: 25,              // Movement Strength when the cursor is moved. The higher, the faster it will reacts to your cursor. The default value is 25.
