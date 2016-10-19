@@ -397,7 +397,34 @@ b.highlight{
 	font-weight:normal;
 }
 
+a.pinklink{
+  color:#b1b1b1;
+	-webkit-transition: 1s; /* Safari */
+	transition: 1s;
+	-moz-transform:1s;
+	-ms-transform:1s;
+	-o-transform:1s;
+}
 
+a.pinklink:hover{
+  color:#fa9a7d;
+
+}
+
+a.smallerlink{
+	color:#fa9a7d;
+	font-size:16px;
+	-webkit-transition: 1s; /* Safari */
+	transition: 1s;
+	-moz-transform:1s;
+	-ms-transform:1s;
+	-o-transform:1s;
+}
+
+a.smallerlink:hover{
+	color:#f2805d;
+
+}
 
 a{
   color:#b1b1b1;
