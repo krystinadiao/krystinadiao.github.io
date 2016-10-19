@@ -79,9 +79,6 @@ body {
 
 
 
-.header  span{
-  border-bottom:4px solid yellow;
-}
 
 .events-content em span{
   border-bottom:2px solid yellow;
@@ -117,6 +114,11 @@ a:hover span{
 
 .follow-me-text span{
   background-color:#fff;
+	border-bottom:4px solid yellow;
+}
+
+.name span{
+	border-bottom:4px solid yellow;
 }
 
 .main {
