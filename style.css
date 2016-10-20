@@ -238,9 +238,7 @@ a:hover span{
 ::selection { background: yellow; }
 
 
-#contact, #portfolio{
-  margin-top:100px;
-}
+
 
 
 #portfolio{
@@ -390,7 +388,9 @@ h4{
 
 
 b.highlight{
-  background-color:#ffdbd0;
+	font-size:14px;
+	color:#333;
+  background-color:white;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
 	-moz-transform:0.5s;
