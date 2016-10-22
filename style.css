@@ -44,6 +44,7 @@ body {
   font-family:'raleway' sans-serif !important;
   color:#333;
 	margin:20px;
+	text-align:center;
 }
 
 
@@ -64,7 +65,7 @@ body {
   overflow: hidden;
   clear: both;
   margin:100px;
-  margin-right:250px;
+  margin-right:100px;
   text-align:left;
   position:relative;
   height:100vh;
@@ -101,6 +102,7 @@ a:hover span{
 
 .follow-me-text{
   position:absolute;
+	text-align:center;
   padding-top:10px;
   padding-bottom:10px;
   width:100%;
@@ -119,6 +121,13 @@ a:hover span{
 
 .name span{
 	border-bottom:4px solid yellow;
+}
+
+.main-front {
+  min-height:100vh;
+  width: 100%;
+  margin: 0 auto;
+	max-width:1000px;
 }
 
 .main {
@@ -386,11 +395,20 @@ h4{
   font-size:15px;
 }
 
-
-b.highlight{
-	font-size:14px;
+b.highlight2{
+	font-size:15px;
+	border-bottom:2px solid yellow;
 	color:#333;
   background-color:white;
+	-webkit-transition: 0.5s; /* Safari */
+	transition: 0.5s;
+	-moz-transform:0.5s;
+	-ms-transform:0.5s;
+	-o-transform:0.5s;
+	font-weight:normal;
+}
+b.highlight{
+  background-color:yellow;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
 	-moz-transform:0.5s;
@@ -1088,7 +1106,7 @@ ul.takeaways{
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:680px){
 	.header h1 span{
 	  border-bottom:4px solid yellow;
 		font-size:60px;
