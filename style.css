@@ -407,6 +407,7 @@ b.highlight2{
 	-o-transform:0.5s;
 	font-weight:normal;
 }
+
 b.highlight{
   background-color:yellow;
 	-webkit-transition: 0.5s; /* Safari */
