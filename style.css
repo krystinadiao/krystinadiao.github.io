@@ -1166,3 +1166,9 @@ ul.takeaways{
 		margin-top:50px;
 	}
 }
+
+@media screen and (max-height:650px){
+	.follow-me-text{
+		display:none;
+	}
+}
