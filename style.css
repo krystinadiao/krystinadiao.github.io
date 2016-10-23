@@ -1123,7 +1123,8 @@ ul.takeaways{
 
 	.header{
 		font-size:15px;
-		margin:20px;
+		margin-top:100px;
+		margin:70px;
 	}
 
 	#portfolio{
@@ -1154,5 +1155,14 @@ ul.takeaways{
 	header {
 			text-align:center;
 			padding-left:0px;
+	}
+}
+
+
+@media screen and (max-width:550px){
+	.header{
+		font-size:15px;
+		margin:20px;
+		margin-top:50px;
 	}
 }
