@@ -30,7 +30,7 @@ body {
   height:100%;
   padding: 0;
   text-align: center;
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 	font-weight:300;
   position: relative;
   margin: 0;
@@ -76,6 +76,7 @@ body {
   background-color:#fff;
   font-size:18px;
   padding:40px;
+	font-family:'pt sans', sans-serif;
 }
 
 
@@ -108,6 +109,7 @@ a:hover span{
   width:100%;
   font-size:15px;
   color:#6c6c6c;
+	font-family:'pt sans',sans-serif;
 }
 .follow-me-text{
   top:80%;
@@ -252,7 +254,7 @@ a:hover span{
 
 #portfolio{
   font-size: 12px;
-  font-family:"Helvetica", sans-serif;
+  font-family:'PT Sans', sans-serif;
   color:#b6b6b6;
   text-align:center;
 }
@@ -263,7 +265,7 @@ a:hover span{
 
 .contain2{
 	margin-bottom:50px;
-	font-family:"Helvetica" !important;
+	font-family:'PT Sans' !important;
 	text-transform:uppercase;
 	font-size:10px;
 }
@@ -293,7 +295,7 @@ a:hover span{
   line-height:22px !important;
   color:#393939;
   background-color:#fff;
-	font-family:"Helvetica", sans-serif;
+	font-family:"PT Sans", sans-serif;
 }
 
 .text-boxes img{
@@ -339,7 +341,7 @@ h1{
   font-weight:bold;
 	font-size:40px !important;
   margin-top:50px !important;
-	font-family:"Helvetica",sans-serif;
+	font-family:"PT Sans",sans-serif;
 }
 
 span.hello3{
@@ -383,7 +385,7 @@ h3{
 h4{
 	font-size:40px;
 	text-align:left;
-	font-family:"Helvetica";
+	font-family:"PT Sans";
 	margin: 30px 0px;
 	font-weight:bold;
 }
@@ -419,7 +421,7 @@ b.highlight{
 }
 
 a.pinklink{
-  color:#b1b1b1;
+  color:#fa9a7d;
 	-webkit-transition: 1s; /* Safari */
 	transition: 1s;
 	-moz-transform:1s;
@@ -428,7 +430,7 @@ a.pinklink{
 }
 
 a.pinklink:hover{
-  color:#fa9a7d;
+  color:#b1b1b1;
 
 }
 
