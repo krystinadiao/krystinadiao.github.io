@@ -40,11 +40,13 @@ body {
 
 
 .name{
+	line-height:normal;
   font-size:50px;
   font-family:'raleway' sans-serif !important;
   color:#333;
 	margin:20px;
-	text-align:center;
+	margin-left:0;
+	text-align:left;
 }
 
 
@@ -61,22 +63,18 @@ body {
 }
 
 
-.header {
-  overflow: hidden;
-  clear: both;
-  margin:100px;
-  margin-right:100px;
-  text-align:left;
-  position:relative;
-  height:100vh;
-  font-size:20px;
-}
+
 
 .text{
+	max-width:900px;
   background-color:#fff;
   font-size:18px;
-  padding:40px;
+	line-height:28px;
+  padding:60px;
+	padding-top:40px;
+	text-align:left;
 	font-family:'pt sans', sans-serif;
+	color:#808080;
 }
 
 
@@ -126,10 +124,9 @@ a:hover span{
 }
 
 .main-front {
-  min-height:100vh;
   width: 100%;
   margin: 0 auto;
-	max-width:1000px;
+	margin-top:80px;
 }
 
 .main {
@@ -146,6 +143,10 @@ a:hover span{
 
 .container-img i{
 	font-size:18px;
+}
+
+i{
+	color:#656565;
 }
 
 .container-img{
@@ -253,6 +254,7 @@ a:hover span{
 
 
 #portfolio{
+	margin-top:80px;
   font-size: 12px;
   font-family:'PT Sans', sans-serif;
   color:#b6b6b6;
@@ -421,7 +423,7 @@ b.highlight{
 }
 
 a.pinklink{
-  color:#fa9a7d;
+  color:#656565;
 	-webkit-transition: 1s; /* Safari */
 	transition: 1s;
 	-moz-transform:1s;
@@ -430,7 +432,7 @@ a.pinklink{
 }
 
 a.pinklink:hover{
-  color:#b1b1b1;
+  color:#fa9a7d;
 
 }
 
@@ -450,7 +452,7 @@ a.smallerlink:hover{
 }
 
 a{
-  color:#b1b1b1;
+  color:#808080;
   text-decoration:none;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
@@ -505,7 +507,7 @@ a.image:hover{
 .category{
   padding: 5px;
   font-size:12px;
-  color:#656565;
+  color:#333333;
   font-family:"raleway";
   background-color:#f1f1f1;
 	-webkit-transition: 1s; /* Safari */
@@ -562,7 +564,7 @@ a.image:hover{
 	height: 100%;
 }
 
-header {
+/*header {
 		text-align:left;
 		background-color: rgba(255, 255, 255, 0.8);
 		padding: 20px;
@@ -578,9 +580,20 @@ header {
 		font-weight:bold;
 }
 
+.header {
+  overflow: hidden;
+  clear: both;
+  margin:100px;
+  margin-right:100px;
+  text-align:left;
+  position:relative;
+  height:100vh;
+  font-size:20px;
+}
+
 header a:hover{
 	color:#000;
-}
+}*/
 
 .nav-up {
     top: -90px;
@@ -1125,7 +1138,6 @@ ul.takeaways{
 
 	.header{
 		font-size:15px;
-		margin-top:100px;
 		margin:70px;
 	}
 
