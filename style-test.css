@@ -1117,10 +1117,52 @@ ul.takeaways{
 	.fourtypercent2{
 		display:none;
 	}
+
+	.panel-text{
+		width:100vw !important;
+		text-align:left;
+		font-family:"Jaldi", sans-serif;
+		color:#282828;
+		font-size:15px;
+		padding:50px 10px 50px 50px;
+	}
+
+	.panel-text-dark{
+		width:100vw !important;
+		text-align:left;
+		font-family:"Jaldi", sans-serif;
+		color:#282828;
+		font-size:15px;
+		padding:50px 10px 50px 50px;
+	}
+
+	.panel-link a{
+		color:#000 !important;
+		background-color:#fff;
+		padding:8px;
+		display:inline-block;
+		width:150px;
+		text-align:center;
+		font-weight:bold;
+		-webkit-transition: 0.5s; /* Safari */
+		transition: 0.5s;
+		-moz-transform:0.5s;
+		-ms-transform:0.5s;
+		-o-transform:0.5s;
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.45);
+		-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.45);
+		box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.45);
+	}
+
+	.panelwrapper{
+		display:none;
+	}
 }
 
 @media screen and (max-height:650px){
 	.follow-me-text{
 		display:none;
 	}
+
+
 }
