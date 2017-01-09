@@ -1124,7 +1124,7 @@ ul.takeaways{
 		font-family:"Jaldi", sans-serif;
 		color:#282828;
 		font-size:15px;
-		padding:50px 10px 50px 50px;
+		padding:50px 10px 50px 20px;
 	}
 
 	.panel-text-dark{
@@ -1133,7 +1133,7 @@ ul.takeaways{
 		font-family:"Jaldi", sans-serif;
 		color:#282828;
 		font-size:15px;
-		padding:50px 10px 50px 50px;
+		padding:50px 10px 50px 20px;
 	}
 
 	.panel-link a{
@@ -1156,6 +1156,14 @@ ul.takeaways{
 
 	.panelwrapper{
 		display:none;
+	}
+
+	.panel-text h2{
+		margin-top:0;
+		margin-bottom:-10px;
+		font-size:40px;
+		font-family:"Jaldi", sans-serif;
+		color:#282828;
 	}
 }
 
