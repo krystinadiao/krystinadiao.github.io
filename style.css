@@ -10,7 +10,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {  
+blockquote, q {
 	quotes: none;
 }
 blockquote:before, blockquote:after,
@@ -34,7 +34,6 @@ body {
 	font-weight:300;
   position: relative;
   margin: 0;
-  background-color:#fff ;
 
 }
 
@@ -1229,3 +1228,55 @@ ul.takeaways{
 		display:none;
 	}
 }
+
+
+
+
+/* change background color */
+
+/* Setting fade transition and default settings */
+body {
+  background-color: #f6f6f6;
+  transition: background-color 1s ease;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /*outline: 10px solid hotpink;*/
+  /* turn above on to see the edge of panels */
+}
+
+/* colours */
+.color-violet {
+  background-color: transparent;
+}
+.color-indigo {
+  background-color: #4332CF;
+}
+.color-blue {
+  background-color: #2F8FED;
+}
+.color-green {
+  background-color: #4DCF42;
+}
+.color-yellow {
+  background-color: #FAEB33;
+}
+.color-orange {
+  background-color: #F19031;
+}
+.color-red {
+  background-color: #F2293A;
+}
+.color-white {
+	background-color: transparent
+}
+
+
+/* end change background color */
