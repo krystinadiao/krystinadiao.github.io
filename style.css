@@ -1167,6 +1167,18 @@ ul.takeaways{
 		font-family:"Jaldi", sans-serif;
 		color:#282828;
 	}
+
+	body {
+	  height:100%;
+	  padding: 0;
+	  text-align: center;
+	  font-family: 'Jaldi', sans-serif;
+		font-weight:300;
+	  position: relative;
+	  margin: 0;
+		background-image: none;
+		background-color:#f6f6f6 !important;
+	}
 }
 
 @media screen and (max-height:650px){
