@@ -384,6 +384,28 @@ a.medium-button:hover{
 	cursor:default;
 }
 
+.number2{
+ text-transform:lowercase;
+ z-index: -999;
+ position:absolute;
+ left:5vw;
+ margin-top:-30px;
+
+ font-size:100px;
+ color:#f2f2f2;
+ font-weight:bold;
+ font-family:"overpass", sans-serif;
+
+ -webkit-user-select: none; /* Chrome/Safari */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* IE10+ */
+
+ /* Rules below not implemented in browsers yet */
+ -o-user-select: none;
+ user-select: none;
+ cursor:default;
+}
+
 
 
 #portfolio{
@@ -1186,6 +1208,10 @@ b{
 	.number{
 	 color:#f7f7f7;
  }
+
+ .number2{
+	color:#f7f7f7;
+ }
 }
 
 
@@ -1227,6 +1253,16 @@ b{
 	  border-bottom:4px solid yellow;
 		font-size:60px;
 
+	}
+
+	.number2{
+		font-size:50px;
+	}
+
+	.container-footer{
+		width:100%;
+		font-size:20px;
+		margin-left:-40px;
 	}
 
 	.footer-img img{
