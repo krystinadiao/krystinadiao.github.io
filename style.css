@@ -600,6 +600,7 @@ b.highlight{
 }
 
 a.pinklink{
+
   color:#656565;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
@@ -1406,7 +1407,13 @@ b{
 	width:70vw;
 	height:200px;
 }
+a.pinklink{
+	font-size:11px;
+}
 
+.text{
+	padding:35px;
+}
 
 }
 
