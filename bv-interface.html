@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BV Interface - Krystina Diao</title>
+  <title>Bazaarvoice Interface Design - Krystina Diao</title>
   <meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
   <script type="text/javascript" src="jquery.interactive_bg.js"></script>
@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="bootstrap.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Overpass" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i" rel="stylesheet">
 
   <script type="text/javascript" src="customscripts.js"></script>
 
@@ -27,218 +27,356 @@
   <script src="/fonts.js"></script>
 
 
+  <link rel="stylesheet" type="text/css" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+
+
+
+
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-75921805-1', 'auto');
   ga('send', 'pageview');
 
-</script>
+  </script>
 </head>
-<body>
+<body class="subpages">
   <header class="nav-start">
-      <a href="pawtty.html"><i class="fa fa-angle-left arrow "  aria-hidden="true"></i></a>
 
-      &nbsp;  <a href="index.html">Home</a> &nbsp;/&nbsp; <a href="index.html#portfolio">Works</a>&nbsp;
+    <center>
 
-        <a href="bv-analytics.html"><i class="fa fa-angle-right arrow" aria-hidden="true"></i></a>
+      <div class="name" >
+        <div class="tooltip">
+          <a href="league-mobile.html"><i class="fa fa-angle-left arrow" aria-hidden="true"></i><span class="tooltip tooltiptext">League Mobile Redesign</span></a>
+        </div>
+        &nbsp;
+        <span><a href="http://krystinadiao.com">krystina diao</a></span>
+        &nbsp;
+        <div class="tooltip">
+          <a href="bv-analytics.html"><i class="fa fa-angle-right arrow" aria-hidden="true"></i><span class="tooltiptext">Bazaarvoice Analytics Project</span></a>
+        </div>
+      </div class="name">
+
+    </center>
+
+
   </header>
+
   <div class="main" id="top">
-    <div class="cover" style="background-color:#ffcfb9; padding-top:15vh;">
+    <div class="cover" style="background-color:#fff; padding-top:12vh;">
 
       <div data-aos="fade-up">
-      <h1>
-
-
-        <span class="hello-light">Bazaarvoice UI Design</span>
-</h1>
-
-    </div>
-<br/>
-    <div data-aos="fade-up" >
-      <div class="container-dark" style="margin-bottom:0px;">  <center>
-        The goal of this project was to create a easy to use, easy to understand UI, to explore a database previously only accessable through command line. <br/><br/>
-    Andee Liao - Full Stack Developer<br/>
-        Krystina Diao - UX / UI</center>
-        <br/><br/>
+        <h1>
+          Bazaarvoice UI Design<span style="color:#98cbbc;">.</span>
+        </h1>
 
       </div>
-<div class="container-img-header">
-      <img src="bv/interface-header.png" width="100%"/>
-    </div>
-    </div>
+      <br/>
+
+      <div data-aos="fade-up">
+        <img src="bv/mainmockup.png" class="mockupimg"/><br/>
+        <a class="medium-button" href="">View on Medium</a>
+      </div>
+
+      <div data-aos="fade-up" >
+        <div class="card-row">
+          <div class="card" >
+
+            <h5>  <img src="icons/context.svg" class="icon" /> context </h5>
+            While interning at <a href="http://bazaarvoice.com" target="_blank">Bazaarvoice</a>,
+            I was presented with the opportunity to <b>design a web interface for
+              engineers to access a database</b>, previously only accessible via command line,
+              with functionalities including viewing and editing data.
+            </div>
+
+            <div class="card">
+              <h5><img src="icons/me.svg" class="icon" />my role</h5>
+              I served as the designer of this project, alongside my engineering intern friend, <a href="http://www.andeeliao.com/" target="_blank">Andee Liao</a>.
+            </div>
+
+            <div class="card">
+              <h5><img src="icons/research.svg" class="icon" />research</h5>
+              <ul class="card-list">
+                <li>Conduct affinity mapping to identify user needs, desired concepts, and proper information architecture</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h5><img src="icons/value.svg" class="icon" />value prop</h5>
+              <ul class="card-list">
+                <li>Easier access to the database and the data - a simple, intuitive interface with auto-wrapping
+                  deltas and conditionals</li>
+                  <li>Increases efficiency and intuitiveness, leading to speeding up engineering projects and timelines</li>
+                </ul>
+              </div>
 
 
-    </div>
-
-  </div>
-
-
-
-
-
-
-
-
-<section id="research">
-            <div data-aos="fade-up" >
-                <div class="container-dark">
-      <h4>  <span class="hello-dark">Research / Analysis</span></h4>
-
-To start off, Andee built the entire full-stack functionalities of the interface before jumping into design elements.
-</div></div>
-
-<div data-aos="fade-up" >
+              <div class="card">
+                <h5><img src="icons/process.svg" class="icon" />process</h5>
+                <ul class="card-list">
+                  <li>Determine user flow, based off of existing procedures, user personas, and concept testing</li>
+                  <li>Create multiple, rapid design iterations leading to the final design</li>
+                  <li>Present to engineers who utilize the system</li>
+                </ul>
+              </div>
 
 
-    <div class="container-img">
-    <i>  Initial structure of the site, pre-styling of any kind</i><br/><br/>
-    <a class="image" href="bv/interface-1.jpg" data-lightbox="image-2" data-title="Before Design Implementation"><img  src="bv/interface-1.jpg" alt="" width="45%"/></a>
-    <a class="image" href="bv/interface-2.jpg" data-lightbox="image-2" data-title="Before Design Implementation"><img  src="bv/interface-2.jpg" alt="" width="45%"/></a>
-</div></div>
-
-
-
-<div data-aos="fade-up" >
-    <div class="container-dark">
-                After speaking with the primary stakeholders - engineers using the DB, managers overseeing the DB - a couple personas and use cases were identified.<br/><br/>
-                The primary <b>user personas</b> and <b>use cases</b> would be software engineers who are familiar with the EMOdb functions.  Thus, the interface does not need much explanatory elements, but should ensure a simple and intuitive flow of information.
-
-                  <br/><br/></div></div>
-
-  <div data-aos="fade-up" >
-
-    <div class="container-img">
-                <a href="bv/interface-personas.jpg" data-lightbox="image-2" data-title="User Personas"><img src="bv/interface-personas.jpg" alt="" width="55%"/></a>
-<br/><br/>
-                <span class="category">UX Research</span>
-                <span class="category">User Personas</span>
-
-
-            </div></div>
-</section>
-
-
-
-<section id="design">
-
-              <div data-aos="fade-up" >
-                  <div class="container-dark">
-              <h4>  <span class="hello-dark">Design</span></h4>
-
-              The first step in my design process was to ensure the logic flow is laid out and makes sense.  Next, a simple lo-fi wireframe is sketched out.
-            </div></div>
-
-  <div data-aos="fade-up" >
-            <div class="container-img">
-                <i>  Logic flow and lo-fi wireframing</i><br/><br/>
-                  <a href="bv/interface-flow.jpg" data-lightbox="image-2" data-title="Logic Flow"><img src="bv/interface-flow.jpg" alt="" width="45%" /></a>
-                  <a href="bv/interface-lofi.jpg" data-lightbox="image-2" data-title="Lo-Fi Wireframing"><img src="bv/interface-lofi.jpg" alt="" width="45%" /></a>
-<br/><br/>
-                  <span class="category">UX Research</span>
-                  <span class="category">User Logic Flow</span>
-                  <Span class="category">Wireframing</span>
-                </div>
-</div>
-
-              <div data-aos="fade-up" >
-  <div class="container-dark">
-                  Changes were made throughout the wireframing process, allowing me to experience <b>rapid iteration</b>.<br/><br/>
-
-                  The first hi-fi shows a replica of my lo-fi ideas,
-                  but we resulted in something more like the second image, leaning towards two main columns rather than three to keep the interface as simple and clean as possible.<br/><br/>
-                  The color palette is based off of the Bazaarvoice green and a neutral secondary palette.
-                </div></div>
-
-                <div data-aos="fade-up" >
-                          <div class="container-img">
-                  <a href="bv/interface-7.jpg" data-lightbox="image-2" data-title="Hi-Fi Wireframe"><img src="bv/interface-7.jpg" alt="" width="45%" /></a>
-                  <a href="bv/interface-8.jpg" data-lightbox="image-2" data-title="Hi-Fi Wireframe"><img src="bv/interface-8.jpg" alt="" width="45%" /></a>
-<br/><br/>
-                  <span class="category">UX Research</span>
-                  <span class="category">UX / UI Design</span>
-                  <Span class="category">Wireframing</span>
-                  <span class="category">Photoshop</span>
-
-              </div></div>
-</section>
-
-
-<section id="production">
-
-                <div data-aos="fade-up"  >
-                    <div class="container-dark">
-                  <h4>  <span class="hello-dark">Production</span></h4>
-                    Finally, in the production stage, I integrated the design elements via HTML, CSS, and simple JS.  <br/><br/>
-                    Screenshots of the ultimate, final interface.  They are nearly identical to the hi-fi wireframes, proving a successful integration.</div></div>
-
-                    <div data-aos="fade-up" >
-                              <div class="container-img">
-                    <a href="bv/interface-3.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-3.jpg" alt="" width="45%"/></a>
-                    <a href="bv/interface-4.jpg" data-lightbox="image-2" data-title="After Design Implementation"><img src="bv/interface-4.jpg" alt="" width="45%" /></a>
-
-<br/><br/>
-
-                    <span class="category">HTML</span>
-                    <span class="category">CSS</span>
-                    <Span class="category">JavaScript</span>
-
-
-                </div></div>
-
-</section>
-
-
-<section id="takeaways">
-
-                <div data-aos="fade-up"  >
-                    <div class="container-dark">
-                <h4>  <span class="hello-dark">Takeaways</span></h4>
-                    <ul class="takeaways">
-                      <li><b>User-centric design</b>: Since this project is for the sole purpose of simplifying a process for engineers, it was very important that the functionality and design did just that.  This required iterative design - going through the cycle of wireframing, changes, updates - as well as better understanding the user needs through user research.  Lesson learned, <b class="highlight">everything comes back to the user</b>.</li><br/>
-                      <li><b>Research & analysis trumps design & production</b>: Previously, I had always felt a much stronger emphasis on actually creating the design, actually implementing the design.  However, it has become clear that the research and analysis stage will typically take longer, and is essentially the backbone to any further steps.  <b class="highlight">Strong user research, accurate analysis of the data, and successful drawing of insights gives you the platform to create a strong design.</b>
-                    </ul>
-
-
-
-                </div></div>
-
-</section>
-
-
-
-
-<div class="contain2 col-md-12">
-
-  <section id="footer">
-      <a href="#top">&nbsp;Back to top&nbsp;</a><br/><br/>
-
-
-      © 2016 Krystina Diao
-
-    </section>
-  </div>
-
-
-
-                    </div>
+              <div class="card">
+                <h5><img src="icons/results.svg" class="icon" />results & takeaways</h5>
+                <ul class="card-list">
+                  <li>Value of a user-centric design, with everything leading back to the user</li>
+                  <li>Research and analysis trumps design and production
                   </div>
 
 
+                </div></div>
+              </div>
+
+            </div>
 
 
-                <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-                <script src="lightbox2-master/dist/js/lightbox.js" type="text/javascript"></script>
 
-                <script>
-                AOS.init({
-                  easing: 'ease-out-back',
-                  duration: 1000
-                });
-                </script>
 
-              </body>
-              </html>
+
+
+
+            <div data-aos="fade-up" >
+              <div class="number">01</div>
+
+              <div class="container-dark">
+
+
+
+                <h4>  <span class="hello-dark">context</span></h4>
+
+                This project was completed during my summer 2016 internship at Bazaarvoice, over the course of about 4 weeks.  Each intern at Bazaarvoice has a focal summer project, mine being the <a href="/bv-analytics.html">BV Analytics Project</a>. This project was Andee's primary project.  <br/>
+                <br/>
+                The goal was to create a web-based interface for engineers to access a database to make easy changes.  This database was previously only accessible via command line, which makes it time-consuming and inefficient to use.
+
+                <div class="blockquote"><b>Goal:</b> Design an intuitive user interface for access to a rather complex database.</div>
+              </div>
+            </div>
+
+            <div data-aos="fade-up" >
+
+              <div class="number">02</div>
+
+              <div class="container-dark">
+
+                <h4>  <span class="hello-dark">my role</span></h4>
+
+                My role in this project was to serve as the designer, including taking the reigns in user research, interface design, and experience design.  I collaborated with another awesome intern, <a href="http://www.andeeliao.com/" target="_blank">Andee</a>,
+                who served as the engineer.  She built the functionalities of accessing, editing, and saving to the database.
+                <br/><br/>
+                Bazaarvoice is a company very big on working in an agile environment, so this project served as an awesome opportunity to practice agile, iterative development / design.
+                My primary tasks included conducting light user research (light, given the relative simplicity of the target audience), designing intuitive and user-focused mockups,
+                iterate based on standups with Andee, and implement the final design via
+                HTML, CSS, and Javascript.
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" >
+              <div class="number">03</div>
+
+              <div class="container-dark">
+
+                <h4>  <span class="hello-dark">research</span></h4>
+
+                <div class="subheader">user personas</div>
+
+                After speaking with the primary stakeholders - engineers using the DB, managers overseeing the DB - a couple personas and use cases were identified.<br/><br/>
+                The primary <b>user personas</b> and <b>use cases</b> would be software engineers who are familiar with the EMOdb functions.  Thus, the interface does not need much explanatory elements, but should ensure a simple and intuitive flow of information.
+
+
+
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" >
+              <div class="number">04</div>
+              <div class="container-dark">
+
+                <h4>  <span class="hello-dark">value prop</span></h4>
+
+                The importance of this project is the improvement of efficiency all across the engineering department.  The time saved on training on how to use the database, actually using the database, etc. will be significant.  <br/>
+<br/>
+                Not only will efficiency be greatly impacted, but intuitiveness and ability to make changes to the database will be improved.  The web interface serves as not just simply an access to the database, but also shortcut deltas and conditionals that auto-wrap around the values.
+
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" >
+              <div class="number">05</div>
+              <div class="container-dark">
+
+                <h4>  <span class="hello-dark">process</span></h4>
+
+                To start off, Andee built the core functionalities of the interface before jumping into design elements.
+
+                <br/><br/>
+
+                <section class="regular slider">
+                  <div>
+                    <img src="bv/interface-1.jpg"/>
+                  </div>
+                  <div>
+                    <img src="bv/interface-2.jpg"/>
+                  </div>
+                </section>
+
+
+                <div class="caption"><span>The barebones site, with only the functionalities built out</span></div>
+                <br/><br/>
+
+                The first step in my design process was to lay out the logic flow of the interface.  Next, a simple lo-fi wireframe is sketched out.
+
+                <br/><br/>
+
+                <section class="regular slider">
+                  <div>
+                    <img src="bv/interface-flow.jpg"/>
+                  </div>
+                  <div>
+                    <img src="bv/interface-lofi.jpg"/>
+                  </div>
+                </section>
+
+                <div class="caption"><span>Logic flow & lo-fi wireframe sketch</span></div>
+
+                <br/><br/>
+
+
+                Changes were made throughout the wireframing process, allowing me to experience <b>rapid iteration</b>.<br/><br/>
+
+                The first hi-fi shows a replica of my lo-fi ideas,
+                but we resulted in something more like the second image, leaning towards two main columns rather than three to keep the interface as simple and clean as possible.<br/><br/>
+                The color palette is based off of the Bazaarvoice green and a neutral secondary palette.
+                <br/><br/>
+
+                <section class="regular slider">
+                  <div>
+                    <img src="bv/interface-7.jpg"/>
+                  </div>
+                  <div>
+                    <img src="bv/interface-8.jpg"/>
+                  </div>
+                </section>
+
+                <div class="caption"><span>Hi-fi mockups and example iteration</span></div>
+
+                <br/><br/>
+
+                Finally, in the production stage, I integrated the design elements via HTML, CSS, and simple JS.  <br/><br/>
+                Screenshots of the ultimate, final interface.  They are nearly identical to the hi-fi wireframes, proving a successful integration.
+
+
+                <section class="regular slider">
+                  <div>
+                    <img src="bv/interface-3.jpg"/>
+                  </div>
+                  <div>
+                    <img src="bv/interface-4.jpg"/>
+                  </div>
+                </section>
+                <div class="caption"><span>Final implemented design</span></div>
+
+
+              </div>
+
+            </div>
+
+            <div data-aos="fade-up" >
+              <div class="number">06</div>
+
+              <div class="container-dark">
+
+                <h4>  <span class="hello-dark">results & takeaways</span></h4>
+
+                <ul class="takeaways">
+                  <li><b>User-centric design</b>: Since this project is for the sole purpose of simplifying a process for engineers, it was very important that the functionality and design did just that.  This required iterative design - going through the cycle of wireframing, changes, updates - as well as better understanding the user needs through user research.  Lesson learned, everything comes back to the user.</li><br/>
+                  <li><b>Research & analysis trumps design & production</b>: Previously, I had always felt a much stronger emphasis on actually creating the design, actually implementing the design.  However, it has become clear that the research and analysis stage will typically take longer, and is essentially the backbone to any further steps.  Strong user research, accurate analysis of the data, and successful drawing of insights gives you the platform to create a strong design.
+                  </ul>
+              </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="contain2 col-md-12 footer-img">
+                <div class="number">view more</div>
+<br/><br/>
+
+<div class="container-footer">
+<nav>
+    <ul class="viewmore">
+       <li class="column">
+          <ul>
+            <li><a href="">Pawtty</a></li>
+            <li><a href="">Bv Analytics</a></li>
+          </ul>
+        </li>
+        <li class="column">
+          <ul>
+             <li><a href="">Climb.gg</a></li>
+             <li><a href="">League mobile</a></li>
+          </ul>
+        </li>
+    </ul>
+
+</div>
+</nav>
+</div>
+</br><br/>
+
+
+              <section id="footer">
+                <a href="#top" class="btt">&nbsp;Back to top&nbsp;</a><br/><br/>
+
+
+                © 2017 Krystina Diao
+
+              </section>
+            </div>
+
+
+
+          </div>
+
+
+
+
+
+          <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+          <script src="lightbox2-master/dist/js/lightbox.js" type="text/javascript"></script>
+
+          <script>
+          AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+          });
+          </script>
+
+          <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+          <script type="text/javascript">
+          $(document).on('ready', function() {
+            $(".regular").slick({
+              dots: true,
+              infinite: true,
+              slidesToShow: 1,
+              slidesToScroll: 1
+            });
+          });
+          </script>
+
+        </body>
+        </html>
