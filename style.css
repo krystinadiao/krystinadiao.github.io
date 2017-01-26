@@ -465,6 +465,7 @@ h1{
   margin-top:50px !important;
 	font-family:"helvetica",sans-serif;
 	color:#4a4a4a;
+	padding:0px 10px;
 }
 
 h6{
@@ -514,6 +515,7 @@ span.hello-dark{
 	font-family:"Fira Sans",sans-serif;
 	margin:20px 0;
 	padding:10px;
+	font-style:italic;
 }
 
 h2 {
@@ -1001,9 +1003,9 @@ body {
 	-moz-transform:0.5s;
 	-ms-transform:0.5s;
 	-o-transform:0.5s;
-	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.35);
-	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.35);
-	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.35);
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.35);
+	box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.35);
 
 	border:none;
 }
@@ -1027,6 +1029,10 @@ body {
 	-moz-transform:0.5s;
 	-ms-transform:0.5s;
 	-o-transform:0.5s;
+
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.35);
+	-moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.35);
+	box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.35);
 
 	border:none;
 }
@@ -1375,15 +1381,14 @@ b{
 		display:inline-block;
 		width:150px;
 		text-align:center;
-		font-weight:bold;
 		-webkit-transition: 0.5s; /* Safari */
 		transition: 0.5s;
 		-moz-transform:0.5s;
 		-ms-transform:0.5s;
 		-o-transform:0.5s;
-		-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.45);
-		-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.45);
-		box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.45);
+		-webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.35);
+		-moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.35);
+		box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.35);
 
 		border:none;
 	}
@@ -1414,13 +1419,6 @@ a.pinklink{
 .text{
 	padding:35px;
 }
-
-}
-
-@media screen and (max-height:650px){
-	.follow-me-text{
-		display:none;
-	}
 
 
 }
