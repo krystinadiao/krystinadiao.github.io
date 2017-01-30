@@ -74,10 +74,14 @@ body.subpages{
 
 }
 
+.nav-up {
+    top: -70px;
+}
+
 header {
 		text-align:left;
 		background-color: rgba(255, 255, 255, 0.8);
-		padding: 20px;
+		padding: 15px;
     height:70px;
     position: fixed;
     top: 0;
@@ -86,7 +90,7 @@ header {
 		z-index:999999;
 		font-family:"helvetica";
 		font-size:30px;
-		font-weight:bold;
+		font-weight:600;
 }
 
 header a:hover{
@@ -256,6 +260,7 @@ a:hover span{
 .card-row{
 	max-width:1500px;
 	margin:auto;
+	margin-top:100px;
 }
 
 .card{
@@ -307,24 +312,27 @@ a.medium-button{
 	display:inline-block;
 	background-color:#f2f2f2;
 	border: 1px solid #e0e0e0;
-	font-weight:bold;
+	font-weight:lighter;
 	font-family: "overpass",sans-serif;
 	padding:10px;
 	/*border-radius:3px;*/
 	width:200px;
-	color:#333;
+	color:#4d4d4d;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
 	-moz-transform:0.5s;
 	-ms-transform:0.5s;
 	-o-transform:0.5s;
-	margin: 0 0 100px 0;
+	margin: 0 10px 0px 0;
 }
 
 a.medium-button:hover{
 	background-color:#ebebeb;
-	color:#333;
+	border: 1px solid #c7c7c7;
+	color:#4d4d4d;
 }
+
+
 
 .wrapper{
   height:100%;
@@ -424,7 +432,7 @@ a.medium-button:hover{
 
 .contain2{
 	text-align:left;
-	margin-bottom:50px;
+	margin:100px 0px;
 	font-family:'overpass thin', sans-serif !important;
 	text-transform:uppercase;
 	font-size:10px;
@@ -484,7 +492,7 @@ h1{
   font-weight:lighter;
 	text-transform:lowercase;
 	font-size:40px !important;
-  margin-top:50px !important;
+  margin-top:30px !important;
 	font-family:"helvetica",sans-serif;
 	color:#4a4a4a;
 	padding:0px 10px;
@@ -500,7 +508,7 @@ h6{
 }
 
 .subheader{
-	margin:20px 0 20px 0 !important;
+	margin:40px 0 20px 0 !important;
 	font-weight:bold;
 	text-transform:uppercase;
 	color:#b5b5b5;
@@ -1100,10 +1108,14 @@ body {
 
 
 ul.takeaways{
-	list-style:circle;
+	list-style:disc;
 	text-align:left;
 	margin-left:0;
 	padding-left:10px;
+}
+
+.takeaways li{
+	margin-bottom:20px;
 }
 
 
@@ -1145,7 +1157,12 @@ ul.takeaways{
 
 .mockupimg{
 	width:50%;
-	margin:-10px 0 20px 0px;
+	margin:-10px 0 50px 0px;
+}
+
+.mockupimg-wide{
+	width:55%;
+	margin:-10px 0 50px 0px;
 }
 
 b{
@@ -1202,7 +1219,14 @@ b{
 
 	.mockupimg{
 		width:60%;
+		margin:-10px 0 50px 0px;
 	}
+
+	.mockupimg-wide{
+		width:65%;
+		margin:-10px 0 50px 0px;
+	}
+
 
 	.footer-img img{
 		width:8vw;
@@ -1235,7 +1259,13 @@ b{
 
 
 	.mockupimg{
+		width:55%;
+		margin:-10px 0 50px 0px;
+	}
+
+	.mockupimg-wide{
 		width:60%;
+		margin:-10px 0 50px 0px;
 	}
 
 
@@ -1274,6 +1304,12 @@ b{
 
 	.mockupimg{
 		width:80%;
+		margin:-10px 0 50px 0px;
+	}
+
+	.mockupimg-wide{
+		width:85%;
+		margin:-10px 0 50px 0px;
 	}
 
 	.events-content{
@@ -1351,12 +1387,9 @@ b{
 	  /* turn above on to see the edge of panels */
 	}
 
-
-
-
 		.card{
 			font-size:12px;
-			padding:30px;
+			padding:20px;
 			margin: 15px 5px 0px 5px;
 			width:40vw;
 			height:250px;
@@ -1459,5 +1492,9 @@ a.pinklink{
 	padding:35px;
 }
 
+
+a.medium-button{
+	margin:10px;
+}
 
 }
