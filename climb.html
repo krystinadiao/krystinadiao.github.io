@@ -80,13 +80,22 @@
       <div data-aos="fade-up">
         <img src="climb/mainmockup.png" class="mockupimg"/><br/>
         <a class="medium-button" href="https://medium.com/@krystinadiao/designing-climb-gg-d23eddab7971" target="_blank">View on Medium</a>
-        </div>
+      </div>
+
+      <br/><br/><br/><br/><br/>
 
       <div data-aos="fade-up" >
+
+        <div class="blockquote" style="background-color:#fff;width:80%; margin:auto;padding:20px;">This application is still in the process of being created, and the development side is largely under wraps.
+          I will only be documenting the ongoing design process of Climb.gg.<br/><br/>
+        <b>Format</b>: This article will be broken down by weeks. From there, I will break it down into notes, progress, and feedback.</div>
+      </div>
+
+    <div data-aos="fade-up" >
         <div class="card-row">
           <div class="card" >
 
-            <h5>  <img src="icons/context.svg" class="icon" /> context </h5>
+            <h5>  <img src="icons/context.svg" class="icon" /> context</h5>
             <a href="http://leagueoflegends.com" target="_blank">League of Legends </a> is an online, multiplayer game with a huge e-sports scene.  Competitive teams and players are always looking for new ways to improve gameplay.
             Climb.gg, a group of 5, aims to build a platform to help them do just that.
             </div>
@@ -100,8 +109,8 @@
             <div class="card">
               <h5><img src="icons/research.svg" class="icon" />research</h5>
               <ul class="card-list">
-                <li>Identify target users, interview sample of dog owners, and create user personas</li>
-                <li>Conduct market research on competitive services</li>
+                <li>Understand target audience throughout fast-paced iterations of designs and product decisions</li>
+                <li>Conduct user research such as concept mapping, usability testing, etc.</li>
               </ul>
             </div>
 
@@ -118,9 +127,10 @@
               <div class="card">
                 <h5><img src="icons/process.svg" class="icon" />process</h5>
                 <ul class="card-list">
-                  <li>Determine user flow, based off of existing procedures, user personas, and concept testing</li>
-                  <li>Create multiple, rapid design iterations leading to the final design</li>
-                  <li>Present to engineers who utilize the system</li>
+                  <li>Collaborate with an engineering-based team to make product decisions and design decisions</li>
+                  <li>Meet weekly to discuss updates in work and adaptations in ideas</li>
+                  <li>Present to analysts of target teams to discuss new ideas, iterations, and epics</li>
+                
                 </ul>
               </div>
 
@@ -128,8 +138,7 @@
               <div class="card">
                 <h5><img src="icons/results.svg" class="icon" />results & takeaways</h5>
                 <ul class="card-list">
-                  <li>Value of a user-centric design, with everything leading back to the user</li>
-                  <li>Research and analysis trumps design and production
+                  <li>The product is still under development - I hope to continue updating this design log, within the NDA
                   </div>
 
 
@@ -141,7 +150,7 @@
 
 
 
-
+<img src="climb/isometricmockup.png" width="90%">
 
 
             <div data-aos="fade-up" >
@@ -151,13 +160,48 @@
 
 
 
-                <h4>  <span class="hello-dark">context</span></h4>
+                <h4>  <span class="hello-dark">week 01</span></h4>
 
-                This project was completed during my summer 2016 internship at Bazaarvoice, over the course of about 4 weeks.  Each intern at Bazaarvoice has a focal summer project, mine being the <a href="/bv-analytics.html">BV Analytics Project</a>. This project was Andee's primary project.  <br/>
-                <br/>
-                The goal was to create a web-based interface for engineers to access a database to make easy changes.  This database was previously only accessible via command line, which makes it time-consuming and inefficient to use.
+              My first step, after being brought on to the team, was understanding the product better. Understanding the functionalities, various use cases, target audience, etc. The first two pages I would be in charge of designing are the game details page and the main landing page.
 
-                <div class="blockquote"><b>Goal:</b> Design an intuitive user interface for access to a rather complex database.</div>
+              <div class="subheader">notes</div>
+              <ul class="takeaways">
+              <li>Primary use case: you want to explain the game in further detail</li>
+              <li>Elements: play button, map, timeline, events</li>
+              <li>Auto-generated events (e.g. team fights, major objectives, etc.)</li>
+              <li>User-defined events: option to create new event with description & title, based on time</li>
+              <li>On the landing page, there should be some kind of list or icons of games you want to view, click to go into more detail to the game details page</li>
+            </ul>
+
+            <section class="regular slider">
+              <div>
+                <img style="width:70%;margin:auto;" src="climb/001-orig.png"/>
+              </div>
+            </section>
+            <div class="caption"><span>Existing, simple layout of the functionalities</span></div>
+
+            <div class="subheader">progress</div>
+            <section class="regular slider">
+              <div>
+                <img src="climb/002-sketch.png"/>
+              </div>
+            </section>
+            <div class="caption"><span>Sketches of initial ideas</span></div>
+            <ul class="takeaways">
+            <li>Unsure about the capabilities, if there will be a VOD (gameplay video) in addition to the map, or just the map</li>
+            <li>Contemplation between in-line “create new event” or modal “create new event”</li>
+          </ul>
+
+          <div class="subheader">feedback</div>
+          <ul class="takeaways">
+          <li>For now, we are focusing on putting out an initial product, and some of the more complex features are on hold — this includes the VOD, filtering by anything other than point in time (when creating a new event)</li>
+          <li>Change “title” to “name” and “type”, as the type of event will essentially tag or group the event.</li>
+          <li>The current time (on the timeline, as the user is watching) will be auto-filled when creating a new event, and it can be editable</li>
+          <li>Modal vs. Inline: we decided on inline, as modal restricts the user from easily going back and forth between the timeline and the event creation</li>
+          <li>Inclusion of champion stats, including HP, mana, XP at the given point in time (items will be put on hold until later)</li>
+        </ul>
+
+
               </div>
             </div>
 
@@ -167,15 +211,56 @@
 
               <div class="container-dark">
 
-                <h4>  <span class="hello-dark">my role</span></h4>
+                <h4>  <span class="hello-dark">week 02</span></h4>
 
-                My role in this project was to serve as the designer, including taking the reigns in user research, interface design, and experience design.  I collaborated with another awesome intern, <a href="http://www.andeeliao.com/" target="_blank">Andee</a>,
-                who served as the engineer.  She built the functionalities of accessing, editing, and saving to the database.
-                <br/><br/>
-                Bazaarvoice is a company very big on working in an agile environment, so this project served as an awesome opportunity to practice agile, iterative development / design.
-                My primary tasks included conducting light user research (light, given the relative simplicity of the target audience), designing intuitive and user-focused mockups,
-                iterate based on standups with Andee, and implement the final design via
-                HTML, CSS, and Javascript.
+                <div class="subheader">notes</div>
+                <ul class="takeaways">
+                <li>Removing items that are being held off until later</li>
+                <li>Making adjustments to the “create a new event” input options</li>
+                <li>Adding in champion stats</li>
+              </ul>
+
+              <div class="subheader">progress</div>
+              <section class="regular slider">
+                <div>
+                  <img src="climb/003-sketch.jpg"/>
+                </div>
+                <div>
+                  <img src="climb/004-sketch.jpg"/>
+                </div>
+              </section>
+              <div class="caption"><span>Sketching out ideas of layout view, timeline player design, champion stats, etc.</span></div>
+              <section class="regular slider">
+                <div>
+                  <img src="climb/005-reference.png"/>
+                </div>
+              </section>
+              <div class="caption"><span>While designing the champion stats, I wanted to keep in mind the in-game design, and stay aligned with it since users are already familiar with that HUD interface</span></div>
+
+
+              <section class="regular slider">
+                <div>
+                  <img src="climb/006-lofi.png"/>
+                </div>
+                <div>
+                  <img src="climb/007-lofi.png"/>
+                </div>
+                <div>
+                  <img src="climb/008-lofi.png"/>
+                </div>
+              </section>
+                <div class="caption"><span>Sketch, med-fid mockups showing expanded main menu, expanded game details menu, collapsed menus</span></div>
+
+            My thoughts were to incorporate a double collapsable menu system, one being the main navigation menu of the entire site, one being the menu to access and edit game details. Only one can be expanded at a time. When both are collapsed, the map and game info are expanded, and there is the option to “quick-add” an event based on the live time on the timeline.
+
+            <div class="subheader">feedback</div>
+            <ul class="takeaways">
+            <li>Instead of hamburger menu, identifying the main menu with a “C” or a logo, and arrow for the game details menu</li>
+            <li>Need to make it clearer that only one is expandable at a time, rather than both being hamburger menus</li>
+            <li>Having “Create a new event” at the bottom may cause potential problems if the number of events in the events bank is over flowing, and user have to constantly scroll to the bottom to access create new event. Instead, maybe have the create new event option collapsed until called upon, and then it would appear above the existing events</li>
+            <li><b>Next steps</b>: In addition to taking on the above feedback, the team would like for me to start exploring creating a style guide (logos, iconography, typography, color schemes, etc.) for the look and feel of the site</li>
+          </ul>
+
               </div>
 
             </div>
@@ -185,130 +270,91 @@
 
               <div class="container-dark">
 
-                <h4>  <span class="hello-dark">research</span></h4>
+                <h4>  <span class="hello-dark">week 03</span></h4>
 
-                <div class="subheader">user personas</div>
-
-                After speaking with the primary stakeholders - engineers using the DB, managers overseeing the DB - a couple personas and use cases were identified.<br/><br/>
-                The primary <b>user personas</b> and <b>use cases</b> would be software engineers who are familiar with the EMOdb functions.  Thus, the interface does not need much explanatory elements, but should ensure a simple and intuitive flow of information.
-                <br/><br/>
-
-                <i>Affinity mapping coming soon</i>
-
-
-
-              </div>
-
-            </div>
-
-            <div data-aos="fade-up" >
-              <div class="number">04</div>
-              <div class="container-dark">
-
-                <h4>  <span class="hello-dark">value prop</span></h4>
-
-                The importance of this project is the improvement of efficiency all across the engineering department.  The time saved on training on how to use the database, actually using the database, etc. will be significant.  <br/>
-<br/>
-                Not only will efficiency be greatly impacted, but intuitiveness and ability to make changes to the database will be improved.  The web interface serves as not just simply an access to the database, but also shortcut deltas and conditionals that auto-wrap around the values.
-
-              </div>
-
-            </div>
-
-            <div data-aos="fade-up" >
-              <div class="number">05</div>
-              <div class="container-dark">
-
-                <h4>  <span class="hello-dark">process</span></h4>
-
-                To start off, Andee built the core functionalities of the interface before jumping into design elements.
-
-                <br/><br/>
-
-                <section class="regular slider">
-                  <div>
-                    <img src="bv/interface-1.jpg"/>
-                  </div>
-                  <div>
-                    <img src="bv/interface-2.jpg"/>
-                  </div>
-                </section>
-
-
-                <div class="caption"><span>The barebones site, with only the functionalities built out</span></div>
-                <br/><br/>
-
-                The first step in my design process was to lay out the logic flow of the interface.  Next, a simple lo-fi wireframe is sketched out.
-
-                <br/><br/>
-
-                <section class="regular slider">
-                  <div>
-                    <img src="bv/interface-flow.jpg"/>
-                  </div>
-                  <div>
-                    <img src="bv/interface-lofi.jpg"/>
-                  </div>
-                </section>
-
-                <div class="caption"><span>Logic flow & lo-fi wireframe sketch</span></div>
-
-                <br/><br/>
-
-
-                Changes were made throughout the wireframing process, allowing me to experience <b>rapid iteration</b>.<br/><br/>
-
-                The first hi-fi shows a replica of my lo-fi ideas,
-                but we resulted in something more like the second image, leaning towards two main columns rather than three to keep the interface as simple and clean as possible.<br/><br/>
-                The color palette is based off of the Bazaarvoice green and a neutral secondary palette.
-                <br/><br/>
-
-                <section class="regular slider">
-                  <div>
-                    <img src="bv/interface-7.jpg"/>
-                  </div>
-                  <div>
-                    <img src="bv/interface-8.jpg"/>
-                  </div>
-                </section>
-
-                <div class="caption"><span>Hi-fi mockups and example iteration</span></div>
-
-                <br/><br/>
-
-                Finally, in the production stage, I integrated the design elements via HTML, CSS, and simple JS.  <br/><br/>
-                Screenshots of the ultimate, final interface.  They are nearly identical to the hi-fi wireframes, proving a successful integration.
-
-
-                <section class="regular slider">
-                  <div>
-                    <img src="bv/interface-3.jpg"/>
-                  </div>
-                  <div>
-                    <img src="bv/interface-4.jpg"/>
-                  </div>
-                </section>
-                <div class="caption"><span>Final implemented design</span></div>
-
-
-              </div>
-
-            </div>
-
-            <div data-aos="fade-up" >
-              <div class="number">06</div>
-
-              <div class="container-dark">
-
-                <h4>  <span class="hello-dark">results & takeaways</span></h4>
-
+                <div class="subheader">notes</div>
                 <ul class="takeaways">
-                  <li><b>User-centric design</b>: Since this project is for the sole purpose of simplifying a process for engineers, it was very important that the functionality and design did just that.  This required iterative design - going through the cycle of wireframing, changes, updates - as well as better understanding the user needs through user research.  Lesson learned, everything comes back to the user.</li><br/>
-                  <li><b>Research & analysis trumps design & production</b>: Previously, I had always felt a much stronger emphasis on actually creating the design, actually implementing the design.  However, it has become clear that the research and analysis stage will typically take longer, and is essentially the backbone to any further steps.  Strong user research, accurate analysis of the data, and successful drawing of insights gives you the platform to create a strong design.
-                  </ul>
+                <li>Begin developing a style guide (including logo, typography, color scheme, etc.) for the overall web app to follow</li>
+                <li>Flesh out the design a bit more</li>
+                <li>Making small changes to the interface</li>
+              </ul>
+
+              <div class="subheader">progress</div>
+              Starting to develop the style guide proved as a bit of a challenge. Though I’ve done logo designs and designed overall styles and feels for sites previously, I had never done anything so comprehensive. I was overwhelmed with the options and possibilities. I began by doing a bit of reading on creating a style guide and viewing some example guides:
+              <ul class="takeaways">
+              <li><a href="https://medium.com/r/?url=https%3A%2F%2Fmedium.mybridge.co%2Fall-about-creating-design-style-guides-cba6f6ca509d%23.hzkfj3y32" target="_blank">All About Creating Design Style Guides</a></li>
+              <li><a href="https://medium.com/r/?url=https%3A%2F%2Fblog.prototypr.io%2Fintro-to-style-guides-7a5004467123%3Fref%3Dmybridge.co%23.tati5mmpq" target="_blank">Intro to Style Guides</a></li>
+              <li><a href="https://medium.com/r/?url=https%3A%2F%2Fuxdesign.cc%2Fyour-closet-is-your-personal-design-style-guide-4e948f464c54%23.yea5xz8gx" target="_blank">Your Closet is Your Personal Style Guide</a></li>
+              <li><a href="https://medium.com/r/?url=https%3A%2F%2Fwww.behance.net%2Fgallery%2F7226653%2FMedium-Brand-Development%2F%3Fref%3Dmybridge.co" target="_blank">Medium Brand Development</a></li>
+              <li><a href="https://medium.com/r/?url=https%3A%2F%2Fmedium.freecodecamp.com%2Fdesigning-a-styleguide-elements-that-go-into-functional-and-beautiful-products-ff1621e00a0e%3Fref%3Dmybridge.co%23.jxjaprum7" target="_blank">Designing a Style Guide</a></li>
+
+            </ul>
+
+            Given the limited timeframe, and the sprint coming to a quick end, I wanted to ensure I had all the elements created and thought out before taking the time to create a beautiful style guide / booklet.
+First, I started with the color palette. I had a small idea of what I wanted to incorporate. For a few different reasons, I wanted to go with a dark base: the analytic nature, the need to continuously watch the gameplay panel, and the trademark dark colors of League. Dark backgrounds allow longer viewing periods with less strain on the eyes. I also wanted to go with a deep blue & gold scheme to link recognizability with League of Legends.
+              <section class="regular slider">
+                <div>
+                  insert style guide
+                </div>
+              </section>
+              <div class="caption"><span>Sketching out ideas of layout view, timeline player design, champion stats, etc.</span></div>
+
+              I identified the 5 main colors I was interested in working off of. <br/><br/>
+              The <a href="https://medium.com/r/?url=https%3A%2F%2Fblog.prototypr.io%2Fa-process-for-building-out-color-palettes-19f3214c3132%23.d9kosw1iz" target="_blank">A Process for Building Out Color Palettes</a> article helped me out a lot along the way. I used her practice of identifying which colors I wanted in my final design.
+              <ul class="takeaways">
+                <li>
+              Red: conveys power, success; gives a feeling of using this analytics tool will bring you success in game, leverage the analytics for better results</li>
+              <li>Deep blue/gold: relation to League</li>
+            </ul>
+
+            I then began fleshing out some of my designs to better place out some of the colors and see what actually fits.
+
+
+            <section class="regular slider">
+              <div>
+                <img src="climb/009-medfi.png"/>
+              </div>
+              <div>
+                <img src="climb/010-medfi.png"/>
+              </div>
+
+            </section>
+              <div class="caption"><span>Exploring “Tabbed” Sidebar vs. Two Sidebar</span></div>
+
+              <section class="regular slider">
+                <div>
+                  <img src="climb/011-medfi.png"/>
+                </div>
+                <div>
+                  <img src="climb/012-medfi.png"/>
+                </div>
+              </section>
+              <div class="caption"><span>Fleshing out the interface design</span></div>
+
+
+            <div class="subheader">feedback</div>
+            <ul class="takeaways">
+            <li>The team loved the color choices! I ultimately decided to put the red/orange aside, as it proved to be too bright for the rest of the designs. Because I would also need to include red and blue for the team colors on the gameplay details, as well as green, blue, and purple for the HP, MP, XP bars, I decided to keep Climb’s actual colors more neutral and limited. Too much color would look messy and distract from the gameplay.</li>
+<li>There is still work to be done on placing the serif & sans serif fonts. I will continue to play around with that placement and integration.</li>
+<li>Start thinking of solutions to searching for games, keeping in mind the use case would likely be “find me another game with a team fight (event) like this one)</li>
+<li>The double sidebar may be difficult to scale from an engineering perspective. We explored a new option: carousel at the bottom of the page. This would allow more intuitive and natural navigation of events, as it would already be in chronological order, matching the timeline. It would also allow more space horizontally for us to grow functionalities (for example, eventually showing items for each champion, or more stats for each player).</li>
+          </ul>
+
+          <section class="regular slider">
+            <div>
+              <img src="climb/013-hifi.png"/>
+            </div>
+            <div>
+              <img src="climb/014-hifi.png"/>
+            </div>
+          </section>
+          <div class="caption"><span>Playing around with the idea of carousel events</span></div>
+
+
               </div>
 
             </div>
+
 
 
 

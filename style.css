@@ -507,6 +507,14 @@ h6{
 	color:#4a4a4a;
 }
 
+h7{
+	font-size:15px;
+	text-align:center;
+	font-family:"Fira Sans",sans-serif;
+	margin:10px;
+	font-style:italic;
+}
+
 .subheader{
 	margin:40px 0 20px 0 !important;
 	font-weight:bold;
@@ -593,14 +601,15 @@ h5{
 
 .caption{
 	text-align:center;
-
+margin-bottom:50px;
 	font-size:12px;
 	font-style:italic;
 }
 
 .caption span{
 	background-color:#f2f2f2;
-	padding:3px 10px;
+	padding:3px 10px ;
+
 }
 
 .underline {
@@ -1110,12 +1119,13 @@ body {
 ul.takeaways{
 	list-style:disc;
 	text-align:left;
-	margin-left:0;
+	margin-left:20px;
 	padding-left:10px;
 }
 
 .takeaways li{
 	margin-bottom:20px;
+
 }
 
 
