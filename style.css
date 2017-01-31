@@ -370,8 +370,8 @@ a.medium-button:hover{
 }
 
 
-::-moz-selection { background: yellow; }
-::selection { background: yellow; }
+::-moz-selection { background: #fffd72; }
+::selection { background: #fffd72; }
 
 
  .number{
