@@ -516,9 +516,10 @@ h7{
 }
 
 .subheader{
+	font-size:30px;
 	margin:40px 0 20px 0 !important;
 	font-weight:bold;
-	text-transform:uppercase;
+	text-transform:lowercase;
 	color:#b5b5b5;
 	font-family:"overpass";
 }
