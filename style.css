@@ -114,12 +114,16 @@ header a:hover{
 	font-weight:lighter;
 }
 
+.text span{
+	background-color:#fff;
+}
 
 .text{
+	top:50px;
 	max-width:900px;
-  background-color:#fff;
-  font-size:15px;
-	line-height:28px;
+  background-color:transparent;
+  font-size:46px;
+	font-weight:lighter;
   padding:60px;
 	text-align:left;
 	font-family:'overpass thin', sans-serif;
@@ -643,23 +647,25 @@ b.highlight{
 }
 
 a.pinklink{
-
+	border-bottom:1px dotted #333;
+	font-size:20px;
   color:#656565;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
 	-moz-transform:0.5s;
 	-ms-transform:0.5s;
 	-o-transform:0.5s;
-	background-color:#ededed;
+	background-color:#fff;
 	padding:5px;
-
-	border:none;
+	position: relative;
+  top: 0;
 }
 
 a.pinklink:hover{
   /*color:#fa9a7d;*/
-	background-color:yellow;
-	color:#656565;
+	background-color:#fff;
+	color:#000;
+	top:-5px;
 }
 
 a.smallerlink{
@@ -1299,6 +1305,10 @@ b{
 
 	}
 
+	.text{
+		font-size:30px;
+	}
+
 	.number2{
 		font-size:50px;
 	}
@@ -1325,9 +1335,6 @@ b{
 
 	.events-content{
 		margin-left:-20px !important;
-	}
-	.text{
-		font-size:15px;
 	}
 
 	.header{
