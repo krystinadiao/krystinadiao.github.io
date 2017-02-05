@@ -247,6 +247,21 @@ a:hover span{
 	text-align:center;
 }*/
 
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 40px;
+  height: 60px; /*change with size of arrow to make sit on bottom */
+/*   background-image: url(); */
+/*   background-size: contain; */
+}
+
+i {
+  display: block;
+  color: #fff;
+}
+
 .container-dark{
 	max-width:600px;
 	text-align:left;
