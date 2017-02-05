@@ -247,7 +247,7 @@ a:hover span{
 	text-align:center;
 }*/
 
-.arrow {
+.arrow-front {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -257,7 +257,7 @@ a:hover span{
 /*   background-size: contain; */
 }
 
-i {
+.special-i {
   display: block;
   color: #fff;
 }
