@@ -42,7 +42,7 @@ body {
 	font-weight:300;
   position: relative;
   margin: 0;
-	background-image: url(bg.jpg);
+	background-color:#f6f6f6;
 	background-size:100vw;
 }
 
@@ -1093,7 +1093,7 @@ body {
 
 /* colors */
 .color-transparent {
-  background-color:transparent;
+  background-color:#f2f2f2;
 }
 .color-pawtty {
   background-color: #fbd8c8;
