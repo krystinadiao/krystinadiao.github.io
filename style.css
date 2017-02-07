@@ -140,7 +140,7 @@ span.selected-li{
 	font-weight:200;
   padding:60px;
 	text-align:left;
-	font-family:"helvetica", sans-serif;
+	font-family:"fira sans", sans-serif;
 	color:#808080;
 
 	text-transform:lowercase;
@@ -247,6 +247,7 @@ a:hover span{
 }*/
 
 .arrow-front {
+
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -256,9 +257,31 @@ a:hover span{
 /*   background-size: contain; */
 }
 
+
+
+.arrow-bot {
+	font-size:30px;
+	  left: 50%;
+}
+
 .special-i {
   display: block;
-  color: #fff;
+  color: #c1c1c1;
+
+}
+
+.special-i:hover{
+		  color:#949494;
+}
+
+.special-i2 {
+  display: block;
+  color: #949494;
+
+}
+
+.special-i2:hover{
+		  color:#333;
 }
 
 .container-dark{
@@ -450,7 +473,7 @@ a.medium-button:hover{
 
 
 .contain2{
-	text-align:left;
+	text-align:center;
 	margin:100px 0px;
 	font-family:'overpass thin', sans-serif !important;
 	text-transform:uppercase;
@@ -666,7 +689,6 @@ b.highlight{
 
 a.pinklink{
 
-	font-weight:bold;
 	text-transform:uppercase;
 	font-family:"overpass";
 
@@ -736,7 +758,6 @@ a.image:hover{
 }
 
 .fa{
-  color:#c1c1c1 !important;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
 	-moz-transform:0.5s;
@@ -745,10 +766,6 @@ a.image:hover{
 
 }
 
-.fa:hover{
-  color:#949494 !important;
-
-}
 
 .arrow  {
   color:#b1b1b1;
@@ -1117,7 +1134,7 @@ body {
 
 /* colors */
 .color-transparent {
-  background-color:#f2f2f2;
+  background-color:#efefef;
 }
 .color-pawtty {
   background-color: #fbd8c8;
