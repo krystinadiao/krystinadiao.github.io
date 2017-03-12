@@ -91,15 +91,15 @@ header {
 		text-align:left;
 		background-color: rgba(255, 255, 255, 0.8);
 		padding: 15px;
-    height:70px;
+    height:60px;
     position: fixed;
     top: 0;
     transition: top 0.5s ease-in-out;
     width: 100%;
 		z-index:999999;
-		font-family:"helvetica";
-		font-size:30px;
-		font-weight:600;
+		font-family:"karla";
+		font-size:20px;
+		text-transform:lowercase;
 }
 
 header a:hover{
@@ -534,7 +534,7 @@ h1{
   font-weight:lighter;
 	text-transform:lowercase;
 	font-size:40px !important;
-  margin-top:30px !important;
+  margin-top:15px !important;
 	font-family:"helvetica",sans-serif;
 	color:#4a4a4a;
 	padding:0px 10px;
@@ -624,7 +624,7 @@ h4{
 	line-height:50px;
 	text-transform:capitalize;;
 	text-align:left;
-	font-family:"overpass", sans-serif;
+	font-family:"karla", sans-serif;
 	margin: 100px 0px 50px -5px;
 	font-weight:lighter;
 }
@@ -1234,12 +1234,12 @@ ul.takeaways{
 
 .mockupimg{
 	width:50%;
-	margin:-10px 0 50px 0px;
+	margin:10px 0 60px 0px;
 }
 
 .mockupimg-wide{
-	width:55%;
-	margin:-10px 0 50px 0px;
+	width:50%;
+	margin:10px 0 60px 0px;
 }
 
 b{
