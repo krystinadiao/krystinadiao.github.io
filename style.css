@@ -28,7 +28,7 @@ table {
 	text-align:center;
 
 	padding:100px 0px 50px 0px!important;
-	font-family:"overpass", sans-serif !important;
+	font-family:"karla", sans-serif !important;
 	text-transform:uppercase;
 	font-size:10px;
 }
@@ -37,7 +37,7 @@ table {
 	text-align:center;
 
 	padding:-200px 0px 50px 0px!important;
-	font-family:"overpass", sans-serif !important;
+	font-family:"karla", sans-serif !important;
 	text-transform:uppercase;
 	font-size:10px;
 }
@@ -47,7 +47,7 @@ body {
   height:100%;
   padding: 0;
   text-align: center;
-  font-family: 'overpass thin', sans-serif;
+  font-family: 'overpass', sans-serif;
 	font-weight:300;
   position: relative;
   margin: 0;
@@ -123,7 +123,7 @@ span.selected-li{
 	color:#525252;
 	margin:auto;
 	width:80%;
-	font-family:'overpass thin', sans-serif !important;
+	font-family:'overpass', sans-serif !important;
 	font-size:30px;
 	font-weight:lighter;
 }
@@ -137,13 +137,12 @@ span.selected-li{
 	max-width:900px;
   background-color:transparent;
   font-size:40px;
-	font-weight:200;
   padding:60px;
 	text-align:left;
-	font-family:"fira sans", sans-serif;
+	font-family:"Overpass", sans-serif;
 	color:#808080;
 
-	text-transform:lowercase;
+	text-transform:none;
 
 	margin:auto;
 	position:relative;
@@ -290,7 +289,7 @@ a:hover span{
 	color:#525252;
 	margin:auto;
 	width:80%;
-	font-family:'overpass thin', sans-serif !important;
+	font-family:'overpass', sans-serif !important;
 	font-size:15px;
 	font-weight:lighter;
 	line-height:30px;
@@ -306,8 +305,9 @@ a:hover span{
 
 .card{
 	text-align:left;
-	font-family:"overpass thin",sans-serif;
+	font-family:"overpass",sans-serif;
 	font-size:13px;
+	font-weight:300;
 	display:inline-block;
 	background-color:#f9f9f9;
 	border:1px solid #e0e0e0;
@@ -359,7 +359,7 @@ a.medium-button{
 	display:inline-block;
 	background-color:#f2f2f2;
 	border: 1px solid #e0e0e0;
-	font-family: "overpass",sans-serif;
+	font-family: "karla",sans-serif;
 	padding:10px;
 	/*border-radius:3px;*/
 	width:200px;
@@ -461,7 +461,7 @@ a.medium-button:hover{
 #portfolio{
 	margin-top:80px;
   font-size: 12px;
-  font-family:'overpass thin', sans-serif;
+  font-family:'overpass', sans-serif;
   color:#b6b6b6;
   text-align:center;
 }
@@ -475,7 +475,7 @@ a.medium-button:hover{
 .contain2{
 	text-align:center;
 	margin:100px 0px;
-	font-family:'overpass thin', sans-serif !important;
+	font-family:'karla', sans-serif !important;
 	text-transform:uppercase;
 	font-size:10px;
 }
@@ -508,7 +508,7 @@ a.btt:hover{
   line-height:22px !important;
   color:#393939;
   background-color:#fff;
-	font-family:"overpass thin", sans-serif;
+	font-family:"overpass", sans-serif;
 }
 
 .text-boxes img{
@@ -558,12 +558,13 @@ h7{
 }
 
 .subheader{
-	font-size:26px;
+	font-size:16px;
+	font-family:"arial" !important;
 	margin:40px 0 20px 0 !important;
 	font-weight:bold;
-	text-transform:lowercase;
+	text-transform:uppercase;
 	color:#b5b5b5;
-	font-family:"overpass";
+	font-family:"karla";
 }
 
 span.hello3{
@@ -587,6 +588,7 @@ span.hello-light{
 span.hello-dark{
 	border-bottom:3px solid yellow;
 	color:#666;
+
 }
 
 .blockquote{
@@ -613,17 +615,17 @@ h3{
 		font-size:12px;
 		font-weight:bold ;
 		text-transform:uppercase;
-		font-family:"overpass";
+		font-family:"karla";
 
 }
 
 h4{
 	font-size:40px;
 	line-height:50px;
-	text-transform:lowercase;
+	text-transform:capitalize;;
 	text-align:left;
-	font-family:"overpass thin", sans-serif;
-	margin: 100px 0px 50px 0;
+	font-family:"overpass", sans-serif;
+	margin: 100px 0px 50px -5px;
 	font-weight:lighter;
 }
 
@@ -636,7 +638,7 @@ h5{
 	text-transform:uppercase;
 	margin:0 0 10px 0;
 	color:#909090;
-	font-family:"overpass";
+	font-family:"karla";
 }
 
 .icon{
@@ -690,7 +692,7 @@ b.highlight{
 a.pinklink{
 
 	text-transform:uppercase;
-	font-family:"overpass";
+	font-family:"karla";
 
 	border-bottom:1px dotted #333;
 	font-size:12px;
@@ -801,7 +803,7 @@ a.image:hover{
     visibility: hidden;
 		text-transform:uppercase;
 		font-size:10px;
-		font-family:"overpass";
+		font-family:"karla";
 		font-weight:lighter;
     width: auto;
     background-color: #eaeaea;
@@ -828,7 +830,7 @@ a.image:hover{
   padding: 2px;
   font-size:12px;
   color:#333333;
-  font-family:"overpass thin", sans-serif;
+  font-family:"overpass", sans-serif;
   background-color:#f1f1f1;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
@@ -847,7 +849,7 @@ a.image:hover{
   padding: 5px;
   font-size:11px;
   color:#656565;
-  font-family:"overpass thin", sans-serif;;
+  font-family:"overpass", sans-serif;;
   background-color:#fff;
 
 	-webkit-transition: 0.5s; /* Safari */
@@ -972,7 +974,7 @@ body {
 	display: flex;
   justify-content: space-around;
   height: 100vh;
-  font-family: "overpass thin", sans-serif;
+  font-family: "overpass", sans-serif;
   /*outline: 10px solid hotpink;*/
   /* turn above on to see the edge of panels */
 }
@@ -987,7 +989,7 @@ body {
   padding: 2px;
   font-size:14px;
   color:#333333;
-  font-family:"overpass thin", sans-serif;
+  font-family:"overpass", sans-serif;
   background-color:#fff;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
@@ -1013,17 +1015,17 @@ body {
 .panel-text{
 	width:40vw !important;
 	text-align:left;
-	font-family:"overpass thin", sans-serif;
+	font-family:"overpass", sans-serif;
 	color:#fff;
 	font-size:16px;
 	padding:50px 10px 50px 100px;
 }
 
 .panel-text h2{
-	margin:0 0 -10px -5px;
+	margin:0 0 -10px -2px;
 	font-size:40px;
-	text-transform:lowercase;
-	font-family:"fira sans", sans-serif;
+	text-transform:none;
+	font-family:"overpass", sans-serif;
 	color:#fff;
 }
 
@@ -1031,7 +1033,7 @@ body {
 .panel-text-dark{
 	width:40vw !important;
 	text-align:left;
-	font-family:"overpass thin", sans-serif;
+	font-family:"overpass", sans-serif;
 	color:#282828;
 	font-size:16px;
 	padding:50px 10px 50px 100px;
@@ -1041,10 +1043,10 @@ body {
 
 	color:#282828;
 
-	margin:0 0 -10px -5px;
+	margin:0 0 -10px -2px;
 	font-size:40px;
-	text-transform:lowercase;
-	font-family:"fira sans", sans-serif;
+	text-transform:none;
+	font-family:"Overpass", sans-serif;
 }
 
 
@@ -1073,7 +1075,7 @@ body {
 .panel-link-white a{
 	font-size:12px;
 	font-weight:bold;
-	text-transform:uppercase;
+	text-transform:overpass;
 	font-family:"overpass";
 
 	color:#000 !important;
@@ -1107,7 +1109,7 @@ body {
 	font-size:12px;
 	font-weight:bold;
 	text-transform:uppercase;
-	font-family:"overpass";
+	font-family:"karla";
 
 	color:#000 !important;
 	background-color:#fff;
@@ -1121,7 +1123,6 @@ body {
 	-moz-transform:0.5s;
 	-ms-transform:0.5s;
 	-o-transform:0.5s;
-	border-radius:3px;
 
 	border:none;
 }
@@ -1173,7 +1174,7 @@ body {
 		color:#525252;
 		margin:auto;
 		width:80%;
-		font-family:'overpass thin', sans-serif !important;
+		font-family:'overpass', sans-serif !important;
 		font-size:15px;
 		font-weight:lighter;
 		line-height:30px;
@@ -1242,7 +1243,8 @@ ul.takeaways{
 }
 
 b{
-	font-weight:bolder;
+	font-weight:700;
+	color:#000;
 }
 
 
@@ -1278,7 +1280,7 @@ b{
 	.panel-text-dark{
 		width:40vw !important;
 		text-align:left;
-		font-family:"overpass thin", sans-serif;
+		font-family:"overpass", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1434,7 +1436,7 @@ b{
 	.panel-text{
 		width:100vw !important;
 		text-align:left;
-		font-family:"overpass thin", sans-serif;
+		font-family:"overpass", sans-serif;
 		color:#fff;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1443,7 +1445,7 @@ b{
 	.panel-text-dark{
 		width:100vw !important;
 		text-align:left;
-		font-family:"overpass thin", sans-serif;
+		font-family:"overpass", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1459,7 +1461,7 @@ b{
 		display: flex;
 	  justify-content: flex-start;
 	  height: 100vh;
-	  font-family: "overpass thin", sans-serif;
+	  font-family: "overpass", sans-serif;
 	  /*outline: 10px solid hotpink;*/
 	  /* turn above on to see the edge of panels */
 	}
@@ -1501,7 +1503,7 @@ b{
 	.panel-text{
 		width:100vw !important;
 		text-align:left;
-		font-family:"overpass thin", sans-serif;
+		font-family:"overpass", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 20px;
@@ -1510,7 +1512,7 @@ b{
 	.panel-text-dark{
 		width:100vw !important;
 		text-align:left;
-		font-family:"overpass thin", sans-serif;
+		font-family:"overpass", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 20px;
@@ -1532,7 +1534,7 @@ b{
 		margin-top:0;
 		margin-bottom:-10px;
 		font-size:40px;
-		font-family:"overpass thin", sans-serif;
+		font-family:"overpass", sans-serif;
 		color:#282828;
 	}
 
