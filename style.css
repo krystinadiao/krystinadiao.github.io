@@ -296,6 +296,19 @@ a:hover span{
 	margin-bottom:30px;
 }
 
+.bigimg{
+	max-width:1000px;
+	text-align:left;
+	color:#525252;
+	margin:auto;
+	width:80%;
+	font-family:'overpass', sans-serif !important;
+	font-size:15px;
+	font-weight:lighter;
+	line-height:30px;
+	margin-bottom:30px;
+}
+
 
 .card-row{
 	max-width:1500px;
@@ -807,7 +820,7 @@ a.image:hover{
 		font-weight:lighter;
     width: auto;
     background-color: #eaeaea;
-    color: #777;
+    color: #555;
 		border:none;
     text-align: center;
     padding: 2px 5px;

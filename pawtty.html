@@ -322,9 +322,9 @@
 
                 <div class="caption"><span>Initial low-fi walkthrough of the basic screens
 </span></div>
-
-
-                <section class="twoscreens slider">
+</div>
+<div class="bigimg">
+                <section class="fourscreens slider">
                   <div>
                     <img src="pawtty/screens/01.png"/>
                   </div>
@@ -338,10 +338,15 @@
                     <img src="pawtty/screens/04.png"/>
                   </div>
                 </section>
+              </div>
 
 
                 <div class="caption"><span>Loading screen and login / signup screens</span></div>
-                <section class="twoscreens slider">
+
+
+<div class="bigimg">
+
+                <section class="fourscreens slider">
                   <div>
                     <img src="pawtty/screens/05.png"/>
                   </div>
@@ -363,7 +368,7 @@
                 <div class="caption"><span>Dog selection and dog overview screens </span></div>
 
 
-                <section class="twoscreens slider">
+                <section class="fourscreens slider">
                   <div>
                     <img src="pawtty/screens/10.png"/>
                   </div>
@@ -384,7 +389,9 @@
                   </div>
                 </section>
 
+                  </div>
 
+<div class="container-dark">
                 <div class="caption"><span>Editing, adding dog profiles and settings</span></div>
 
                 <div class="subheader">Challenges encountered during wireframing</div>
@@ -404,7 +411,7 @@
 
               </div>
 
-            </div>
+
 
             <div data-aos="fade-up" >
               <div class="number">06</div>
@@ -426,8 +433,6 @@
 
 
           </div>
-            <div data-aos="fade-up" >
-            <img src="pawtty/photomockup02.png" width="70%"></div>
 
 
 
@@ -502,12 +507,38 @@
             });
           });
 
-          $('.twoscreens').slick({
+          $('.fourscreens').slick({
   dots: true,
   infinite: true,
   speed: 300,
-  slidesToShow: 2,
-  slidesToScroll: 2,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+   {
+     breakpoint: 745,
+     settings: {
+       slidesToShow: 2,
+       slidesToScroll: 2,
+     }
+   },
+   {
+     breakpoint: 450,
+     settings: {
+       slidesToShow: 1,
+       slidesToScroll: 1,
+     }
+   }
+ ]
+
+
+});
+
+$('.twoscreens').slick({
+dots: true,
+infinite: true,
+speed: 300,
+slidesToShow: 2,
+slidesToScroll: 2,
 
 });
           </script>
