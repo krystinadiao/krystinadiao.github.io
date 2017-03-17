@@ -115,6 +115,13 @@ span.selected-li{
 	border-bottom:1px dotted #909090;
 }
 
+span.tools{
+	font-family:"karla",sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	opacity:0.8;
+}
+
 
 .container-footer{
 	border:none;
@@ -367,7 +374,7 @@ a.medium-button{
 	font-size:12px;
 	font-weight:bold;
 	text-transform:uppercase;
-	border-radius:3px;
+	/*border-radius:3px;*/
 
 	display:inline-block;
 	background-color:#f2f2f2;
@@ -707,7 +714,7 @@ a.pinklink{
 	text-transform:uppercase;
 	font-family:"karla";
 
-	border-bottom:1px dotted #333;
+	border-bottom:none;
 	font-size:12px;
   color:#656565;
 	-webkit-transition: 0.5s; /* Safari */
@@ -1036,10 +1043,11 @@ body {
 
 .panel-text h2{
 	margin:0 0 -10px -2px;
-	font-size:40px;
-	text-transform:none;
-	font-family:"overpass", sans-serif;
+	font-size:30px;
+	text-transform:uppercase;
+	font-family:"karla", sans-serif;
 	color:#fff;
+	letter-spacing:1px;
 }
 
 
@@ -1054,12 +1062,12 @@ body {
 
 .panel-text-dark h2{
 
+	font-size:30px;
+	text-transform:uppercase;
+	font-family:"karla", sans-serif;
 	color:#282828;
-
+letter-spacing:1px;
 	margin:0 0 -10px -2px;
-	font-size:40px;
-	text-transform:none;
-	font-family:"Overpass", sans-serif;
 }
 
 
@@ -1079,9 +1087,9 @@ body {
  }
 
 .img-shadow{
-	-webkit-box-shadow: 0px 0px 25px 0px rgba(50, 50, 50, 0.45);
-	-moz-box-shadow:    0px 0px 25px 0px rgba(50, 50, 50, 0.45);
-	box-shadow:         0px 0px 25px 0px rgba(50, 50, 50, 0.45);
+	-webkit-box-shadow: 0px 0px 25px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0px 0px 25px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 0px 25px 0px rgba(50, 50, 50, 0.25);
 	margin-right:25px;
 }
 
@@ -1106,7 +1114,7 @@ body {
 
 	border:1px solid #d1d1d1;
 
-	border-radius:3px;
+	/*border-radius:3px;*/
 
 }
 
@@ -1160,7 +1168,7 @@ body {
 }
 
 .color-doordash {
-  background-color: #e9616a;
+  background-color: #DA6B72;
 	background-blend-mode:darken;
 }
 
@@ -1250,6 +1258,11 @@ ul.takeaways{
 	margin:10px 0 60px 0px;
 }
 
+.singlemockupimg{
+	width:15%;
+	margin:10px 0 60px 0px;
+}
+
 .mockupimg-wide{
 	width:50%;
 	margin:10px 0 60px 0px;
@@ -1299,6 +1312,9 @@ b{
 		padding:50px 10px 50px 50px;
 	}
 
+	.singlemockupimg{
+		width:20%;
+	}
 
 	.card{
 		font-size:12px;
@@ -1407,6 +1423,11 @@ b{
 		margin:-10px 0 50px 0px;
 	}
 
+	.singlemockupimg{
+		width:30%;
+		margin:10px 0 60px 0px;
+	}
+
 	.events-content{
 		margin-left:-20px !important;
 	}
@@ -1497,11 +1518,12 @@ b{
 		margin-top:50px;
 	}
 
-	.panel-text h2{
-		font-size:25px;
+	.singlemockupimg{
+		width:50%;
 	}
+
 	.panel-text-dark h2{
-		font-size:25px;
+		font-size:20px;
 		color:#282828;
 	}
 
@@ -1517,7 +1539,7 @@ b{
 		width:100vw !important;
 		text-align:left;
 		font-family:"overpass", sans-serif;
-		color:#282828;
+
 		font-size:15px;
 		padding:50px 10px 50px 20px;
 	}
@@ -1546,9 +1568,9 @@ b{
 	.panel-text h2{
 		margin-top:0;
 		margin-bottom:-10px;
-		font-size:40px;
+		font-size:20px;
 		font-family:"overpass", sans-serif;
-		color:#282828;
+
 	}
 
 .card{
