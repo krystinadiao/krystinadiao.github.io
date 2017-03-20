@@ -1,71 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Krystina Diao</title>
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-	<link rel="manifest" href="favicon/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
-	<!-- <script type="text/javascript" src="jquery.interactive_bg.js"></script> -->
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="stylesheet" href="animate.css">
-	<link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css" />
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="bootstrap.css">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Karla|Overpass:300,800|Fira+Sans:300i" rel="stylesheet">
-
-
-	<script type="text/javascript" src="customscripts.js"></script>
-
-
-	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75921805-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
-<div class="se-pre-con"></div>
 <body>
 
-
 	<header class="nav-start">
-<center>
-      <div class="name" >
-        &nbsp;
-        <span><a href="http://krystinadiao.com">krystina diao</a></span>
-        &nbsp;
-    	</div>
-</center>
-  </header>
+
+		<div class="toplink" style="float:right;">
+		<span><a href="about.html">about</a></span>
+		<span><a href="index.html#portfolio">work</a></span>
+		</div>
+		</div>
+
+		<div style="text-align:center; margin-left:100px;">
+
+			&nbsp;
+			<div class="name">
+			<span><a href="index.html">krystina diao</a></span>
+		</div>
+			&nbsp;
+
+		</div>
+
+	</header>
 
 
 
@@ -291,67 +244,3 @@ display the findings with D3 data visualizations.
 						© 2017 Krystina Diao
 
 					</section>
-				</div>
-
-
-		</div>
-
-	</div>
-
-	<script src="jquery.mobile.custom.min.js"></script>
-	<script src="timeline.js"></script>
-	<script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
-
-	<script>
-	AOS.init({
-		easing: 'ease-out-back',
-		duration: 1000
-	});
-
-
-	$(window).scroll(function() {
-
-
-
-
-		  // selectors
-		  var $window = $(window),
-		      $body = $('body'),
-		      $panel = $('.panel');
-
-		  // Change 33% earlier than scroll position so colour is there when you arrive.
-		  var scroll = $window.scrollTop() + ($window.height() / 3);
-
-		  $panel.each(function () {
-		    var $this = $(this);
-
-		    // if position is within range of this panel.
-		    // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-		    // Remember we set the scroll to 33% earlier in scroll var.
-		    if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-
-		      // Remove all classes on body with color-
-		      $body.removeClass(function (index, css) {
-		        return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
-		      });
-
-		      // Add class of currently active div
-		      $body.addClass('color-' + $(this).data('color'));
-		    }
-		  });
-
-		}).scroll();
-
-
-
-
-
-
-$(window).scroll(function(){
-    $(".arrow-front").css("opacity", 1 - $(window).scrollTop() / 250);
-  //250 is fade pixels
-  });
-	</script>
-
-</body>
-</html>

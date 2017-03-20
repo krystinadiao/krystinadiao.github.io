@@ -30,6 +30,7 @@ table {
 	padding:100px 0px 50px 0px!important;
 	font-family:"karla", sans-serif !important;
 	text-transform:uppercase;
+	letter-spacing:1px;
 	font-size:10px;
 }
 
@@ -39,6 +40,7 @@ table {
 	padding:-200px 0px 50px 0px!important;
 	font-family:"karla", sans-serif !important;
 	text-transform:uppercase;
+	letter-spacing: 1px;
 	font-size:10px;
 }
 
@@ -51,7 +53,7 @@ body {
 	font-weight:300;
   position: relative;
   margin: 0;
-	background-color:#f6f6f6;
+	background-color:#efefef;
 	background-size:100vw;
 }
 
@@ -65,6 +67,7 @@ body.subpages{
 	display:inline-block;
 	line-height:normal;
 	margin-left:0;
+
 }
 
  .graybg span{
@@ -86,6 +89,8 @@ body.subpages{
 .nav-up {
     top: -70px;
 }
+
+
 
 header {
 		text-align:left;
@@ -116,8 +121,8 @@ span.selected-li{
 }
 
 span.tools{
-	font-family:"karla",sans-serif;
-	text-transform: uppercase;
+	font-family:"overpass",sans-serif;
+	text-transform: capitalize;
 	font-size: 12px;
 	opacity:0.8;
 }
@@ -197,14 +202,53 @@ a:hover span{
 }
 
 
-.name span a{
-	background-color:yellow;
+
+
+.toplink span a{
+	border:none;
+	font-size:14px;
+	letter-spacing:1px;
+
+	text-transform:uppercase;
+	font-family:"karla";
+
+	border-bottom:none;
+	font-size:12px;
+  color:#858585;
+	-webkit-transition: 0.5s; /* Safari */
+	transition: 0.5s;
+	-moz-transform:0.5s;
+	-ms-transform:0.5s;
+	-o-transform:0.5s;
+	padding:5px;
+	position: relative;
+  top: 0;
+
+}
+
+.toplink span a:hover{
 	color:black;
 	border:none;
 }
 
+
+.name span a{
+	background-color:yellow;
+	color:black;
+	border:none;
+
+font-family:"karla";
+text-transform:uppercase;
+letter-spacing:1px;
+font-size:14px;
+/*
+background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C 90%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;*/
+}
+
 .name span a:hover{
-	background-color:#f1f1f1;
+	background-color:#efefef;
 	color:black;
 }
 
@@ -224,6 +268,10 @@ a:hover span{
 	min-height:100vh;
 	margin-bottom:50px;
 	padding-bottom:50px;
+}
+
+.cover2{
+	background-size:cover;
 }
 
 .container-img i{
@@ -331,12 +379,61 @@ a:hover span{
 	display:inline-block;
 	background-color:#f9f9f9;
 	border:1px solid #e0e0e0;
+
+
+	/*background-color:#fff;
+
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.20);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.20);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.20);*/
+
 	padding:20px;
 	margin: 15px 5px 0px 5px;
 	width:15vw;
 	height:300px;
 	position: relative;
   top: 0;
+	overflow:hidden;
+	overflow-y:auto;
+
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+
+	-webkit-transition: 0.5s; /* Safari */
+	transition: 0.5s;
+	-moz-transform:0.5s;
+	-ms-transform:0.5s;
+	-o-transform:0.5s;
+}
+
+
+.card2-row{
+	max-width:1500px;
+	margin:auto;
+}
+
+.card2{
+	text-align:left;
+	font-family:"overpass",sans-serif;
+	font-size:13px;
+	font-weight:300;
+	display:inline-block;
+	background-color:#f9f9f9;
+	border:1px solid #e0e0e0;
+
+
+	/*background-color:#fff;
+
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.20);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.20);
+	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.20);*/
+
+	padding:20px;
+	margin: 15px 5px 0px 5px;
+	width:20vw;
+	height:300px;
+	position: relative;
+	top: 0;
 	overflow:hidden;
 	overflow-y:auto;
 
@@ -363,7 +460,20 @@ a:hover span{
 
 
 .card:hover{
-	top:-10px;
+
+		-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.10);
+		-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.10);
+		box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.10);
+
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+.card2:hover{
+
+		-webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.10);
+		-moz-box-shadow:    0px 0px 15px 0px rgba(50, 50, 50, 0.10);
+		box-shadow:         0px 0px 15px 0px rgba(50, 50, 50, 0.10);
 
 	opacity: 0.9;
 	filter: alpha(opacity=90);
@@ -378,6 +488,7 @@ a.medium-button{
 
 	display:inline-block;
 	background-color:#f2f2f2;
+	letter-spacing:1px;
 	border: 1px solid #e0e0e0;
 	font-family: "karla",sans-serif;
 	padding:10px;
@@ -579,12 +690,12 @@ h7{
 
 .subheader{
 	font-size:16px;
-	font-family:"arial" !important;
+	letter-spacing:1px;
+	font-family:"karla" !important;
 	margin:40px 0 20px 0 !important;
 	font-weight:bold;
 	text-transform:uppercase;
 	color:#b5b5b5;
-	font-family:"karla";
 }
 
 span.hello3{
@@ -631,11 +742,12 @@ h2 {
 h3{
   text-align:left;
   margin:0;
-
+	opacity:0.5;
 		font-size:12px;
 		font-weight:bold ;
 		text-transform:uppercase;
 		font-family:"karla";
+		letter-spacing:1px;
 
 }
 
@@ -659,6 +771,7 @@ h5{
 	margin:0 0 10px 0;
 	color:#909090;
 	font-family:"karla";
+	letter-spacing: 1px;
 }
 
 .icon{
@@ -711,6 +824,8 @@ b.highlight{
 
 a.pinklink{
 
+	letter-spacing:1px;
+
 	text-transform:uppercase;
 	font-family:"karla";
 
@@ -726,13 +841,17 @@ a.pinklink{
 	padding:5px;
 	position: relative;
   top: 0;
+
 }
 
 a.pinklink:hover{
   /*color:#fa9a7d;*/
 	background-color:#fff;
 	color:#000;
-	top:-5px;
+
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.15);
+		-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.15);
+		box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.15);
 }
 
 a.smallerlink{
@@ -821,6 +940,7 @@ a.image:hover{
 	 	/*left: 50%;*/
 
     visibility: hidden;
+		letter-spacing:1px;
 		text-transform:uppercase;
 		font-size:10px;
 		font-family:"karla";
@@ -989,6 +1109,16 @@ body {
 
 /* panel styles */
 
+
+.panel2 {
+	min-height:100vh;
+	margin:50px 0px;
+	display: flex;
+  justify-content: space-around;
+  font-family: "overpass", sans-serif;
+}
+
+
 .panel {
   /* min height incase content is higher than window height */
 	display: flex;
@@ -997,6 +1127,7 @@ body {
   font-family: "overpass", sans-serif;
   /*outline: 10px solid hotpink;*/
   /* turn above on to see the edge of panels */
+
 }
 
 .panelwrapper{
@@ -1044,10 +1175,58 @@ body {
 .panel-text h2{
 	margin:0 0 -10px -2px;
 	font-size:30px;
-	text-transform:uppercase;
+	text-transform:none;
 	font-family:"karla", sans-serif;
 	color:#fff;
 	letter-spacing:1px;
+}
+
+
+.aboutabout{
+	background-color:#829A9E;
+
+}
+
+.headshot{
+	width:300px;
+	float:left;
+}
+
+
+.about-image {
+    text-align: left;
+		-webkit-flex: 1;
+				flex: 1;
+
+				margin:0px 50px;
+				max-width:500px;
+}
+
+.about-text{
+text-align:left;
+	-webkit-flex: 1;
+				flex: 1;
+
+				font-family:"overpass", sans-serif;
+				color:#282828;
+				font-size:16px;
+				padding:50px;
+}
+
+
+.flex-container {
+	max-height:85vh;
+	margin-top:12vh;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
 }
 
 
@@ -1063,7 +1242,7 @@ body {
 .panel-text-dark h2{
 
 	font-size:30px;
-	text-transform:uppercase;
+	text-transform:none;
 	font-family:"karla", sans-serif;
 	color:#282828;
 letter-spacing:1px;
@@ -1098,6 +1277,7 @@ letter-spacing:1px;
 	font-weight:bold;
 	text-transform:overpass;
 	font-family:"overpass";
+	letter-spacing:1px;
 
 	color:#000 !important;
 	background-color:#fff;
@@ -1119,7 +1299,10 @@ letter-spacing:1px;
 }
 
 .panel-link-white a:hover{
-	background-color:#f9f9f9;
+
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.15);
+		-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.15);
+		box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.15);
 	color:#000;
 }
 
@@ -1131,6 +1314,7 @@ letter-spacing:1px;
 	font-weight:bold;
 	text-transform:uppercase;
 	font-family:"karla";
+	letter-spacing:1px;
 
 	color:#000 !important;
 	background-color:#fff;
@@ -1149,14 +1333,17 @@ letter-spacing:1px;
 }
 
 .panel-link a:hover{
-	background-color:#efefef;
+
+		-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.35);
+		-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.35);
+		box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.35);
 	color:#000;
 }
 
 
 /* colors */
 .color-transparent {
-  background-color:#efefef;
+	background-color: #efefef;
 }
 .color-pawtty {
   background-color: #fbd8c8;
@@ -1274,8 +1461,19 @@ b{
 }
 
 
+
 /*MEDIA*/
-@media screen and (min-width:680px) and (max-width: 990px){
+@media screen and (min-width:680px) and (max-width: 850px){
+	.card2{
+		font-size:12px;
+		padding:30px;
+		margin: 15px 5px 0px 5px;
+		width:35vw;
+		height:300px;
+	}
+
+
+
 	.follow-me-text{
 		display:none;
 	}
@@ -1297,7 +1495,7 @@ b{
 	.panel-text{
 		width:40vw !important;
 		text-align:left;
-		font-family:"", sans-serif;
+		font-family:"overpass", sans-serif;
 		color:#fff;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1346,11 +1544,102 @@ b{
  .number2{
 	color:#f7f7f7;
  }
+ .about-image{
+	 margin-top:50px;
+ }
+}
+
+
+@media screen and (min-width:850px) and (max-width: 990px){
+	.about-image{
+		margin-top:30px;
+	}
+	.follow-me-text{
+		display:none;
+	}
+
+	.whitebg{
+		margin:100px;
+	}
+
+	.sidebar{
+		display:none;
+	}
+
+	.container-img{
+		padding:30px;
+	}
+
+
+
+	.panel-text{
+		width:40vw !important;
+		text-align:left;
+		font-family:"overpass", sans-serif;
+		color:#fff;
+		font-size:15px;
+		padding:50px 10px 50px 50px;
+	}
+
+	.panel-text-dark{
+		width:40vw !important;
+		text-align:left;
+		font-family:"overpass", sans-serif;
+		color:#282828;
+		font-size:15px;
+		padding:50px 10px 50px 50px;
+	}
+
+	.singlemockupimg{
+		width:20%;
+	}
+
+	.card{
+		font-size:12px;
+		padding:30px;
+		margin: 15px 5px 0px 5px;
+		width:30vw;
+		height:300px;
+	}
+
+	.card2{
+		font-size:12px;
+		padding:30px;
+		margin: 15px 5px 0px 5px;
+		width:40vw;
+		height:300px;
+	}
+
+	.mockupimg{
+		width:60%;
+		margin:-10px 0 50px 0px;
+	}
+
+	.mockupimg-wide{
+		width:65%;
+		margin:-10px 0 50px 0px;
+	}
+
+
+	.footer-img img{
+		width:8vw;
+	}
+
+	.number{
+	 color:#f7f7f7;
+ }
+
+ .number2{
+	color:#f7f7f7;
+ }
 }
 
 
 
 @media screen and (min-width:990px) and (max-width: 1250px){
+	.about-image{
+		margin-top:50px;
+	}
 	.preview-right{
 		font-size:10px;
 		padding:20px 10px 20px 10px;
@@ -1384,11 +1673,20 @@ b{
 		height:300px;
 	}
 
+	.card2{
+		font-size:13px;
+		padding:30px;
+		margin: 15px 5px 0px 5px;
+		width:22vw;
+		height:300px;
+	}
+
 
 }
 
 
 @media screen and (max-width:680px){
+
 	.header h1 span{
 	  border-bottom:4px solid yellow;
 		font-size:60px;
@@ -1507,7 +1805,13 @@ b{
 			width:40vw;
 			height:250px;
 		}
-
+		.card2{
+			font-size:12px;
+			padding:20px;
+			margin: 15px 5px 0px 5px;
+			width:60vw;
+			height:250px;
+		}
 }
 
 
@@ -1580,6 +1884,15 @@ b{
 	width:70vw;
 	height:200px;
 }
+
+.card2{
+	font-size:12px;
+	padding:15px;
+	margin: 15px 5px 0px 5px;
+	width:70vw;
+	height:200px;
+}
+
 a.pinklink{
 	font-size:11px;
 }
@@ -1589,4 +1902,9 @@ a.medium-button{
 	margin:10px;
 }
 
+}
+
+@media all and (min-width: 500px) {
+    .about-text {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .about-image {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
 }
