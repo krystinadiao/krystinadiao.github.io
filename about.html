@@ -47,6 +47,7 @@
 
   <link rel="stylesheet" type="text/css" href="slick/slick.css">
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
 
 
@@ -88,22 +89,24 @@
 
 <div class="flex-container">
   <div class="panel-text-dark about-text">
-    <h2>Krystina Diao</h2><br/>
-    <h3>student | designer | creator</h3><br/>
+    <h2>Krystina Diao</h2>
+    <h3>student | designer | creator</h3>
     <div class="panel-body-text">
     Hello world!
     <br/><br/>
-    I first started designing when I picked up my first oil pastel.  I first started dabbling with code on my Neopet's pet page.  I guess haven't stopped since.
+  I value simplying complex problems, and I believe that good design stems from research.  I'm excited to apply my <b>passion for design</b> and <b>studies in business and development</b> as a new graduate in a product / design career after graduation.
 
     <br/><br/>
+Beyond design, I love playing with dog, Belly <i class="em em-dog"></i>, jamming to the latest Nicki Minaj song <i class="em em-dancer"></i>, and exploring Austin <i class="em em-metal"></i>.
 
-    I value simplying complex problems, and I believe that good design stems from research.  I'm excited to apply my <b>passion in design</b> and <b>studies in business and development</b> in my first full-time career after graduation.
 </div>
 </div>
 
-  <div class="about-image">
-  <img src="headshot.jpg" width="100%">
-  </div>
+
+<div class="about-image">
+
+  <img src="slider2.jpg" width="100%">
+</div>
 
 <div class="arrow-front "><i class="fa fa-angle-down special-i" aria-hidden="true"></i></div>
 </div>
@@ -115,30 +118,31 @@
                 <div class="card2" >
 
                   <h5>design & research</h5>
-                  <a href="http://leagueoflegends.com" target="_blank">League of Legends </a> is an online, multiplayer game with a huge e-sports scene.  Competitive teams and players are always looking for new ways to improve gameplay.
-                  Climb.gg, a group of 5, aims to build a platform to help them do just that.
+                  My passion for design stems from my love of art and science. Design combines the visual aspects along with the quantitative research aspects. <br/><br/>
+                  I've designed at <a href="http://bazaarvoice.com" target="_blank">Bazaarvoice</a>, <a href="climb.html">Climb</a>, and various freelance work.<br/><br/>
+                  Tools I use include Sketch, Framer, Balsamiq, Photoshop, and InVision.
                   </div>
 
                   <div class="card2">
                     <h5>business</h5>
-                  I serve as the sole designer on the team, bridging the gap between software engineers, product, and design.  I am in charge of
-                  determining the user experience and designing the user interface, branding elements, style guides, etc.<br/><br/>
-                  1 Designer, 4 Developers
+                  My degree in Management Information Systems has given me exposure to valuable business-thinking and project management tools such as creating data flow diagrams, business process models, stakeholder's analysis, Gantt charts, etc.<br/><br/>
+                  This business background helps me define project scope, conduct market analysis, always think agile, and tie together the worlds of business and design.
                   </div>
 
                   <div class="card2">
                     <h5>analytics</h5>
-                  I serve as the sole designer on the team, bridging the gap between software engineers, product, and design.  I am in charge of
-                  determining the user experience and designing the user interface, branding elements, style guides, etc.<br/><br/>
-                  1 Designer, 4 Developers
+                     Working with tools such as SQL, Google Analytics, Tableau, Salesforce, and D3 has allowed me to better understand the power of data.<br/><br/>
+
+                  View my <a href="bv-analytics.html">Bazaarvoice analytics project</a> of analyzing product knowledge effectiveness.
+                  <br/><br/>
+                  View my <a href="climb.html">Climb analytics dashboard design</a>.
                   </div>
 
                   <div class="card2">
                     <h5>development</h5>
-                    <ul class="card-list">
-                      <li>Understand target audience throughout fast-paced iterations of designs and product decisions</li>
-                      <li>Conduct user research such as concept mapping, usability testing, etc.</li>
-                    </ul>
+                    I love dabbling in code, despite it not being my strong-suit.  I have worked on projects with Python, Javascript, and C# (MVC Framework).  With my exposure to the dev-side of things, I better understand the constraints and capabilites it has in design.<br/><br/>
+
+                    This portfolio site is handcoded and is a good example of my understanding of code!
                   </div>
 
 
@@ -177,18 +181,20 @@
           <script type="text/javascript">
           $(document).on('ready', function() {
             $(".regular").slick({
-              dots: true,
+              dots: false,
               infinite: true,
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              fade:true,
+               cssEase: 'linear',
+
+              arrows:false,
+              autoplay: true,
+              autoplaySpeed: 2000,
             });
           });
 
 
-          $(window).scroll(function(){
-              $(".arrow-front").css("opacity", 1 - $(window).scrollTop() / 250);
-            //250 is fade pixels
-            });
           </script>
 
         </body>
