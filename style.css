@@ -729,6 +729,7 @@ span.hello-dark{
 	margin:auto;
 	padding:20px;
 	font-family:"overpass",sans-serif;
+	border-left:8px solid yellow;
 }
 
 .blockquote{
