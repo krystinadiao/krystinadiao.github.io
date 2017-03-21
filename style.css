@@ -722,6 +722,14 @@ span.hello-dark{
 	color:#666;
 
 }
+.blocktext{
+	background-color:#f2f2f2;
+	text-align:left;
+	max-width:800px;
+	margin:auto;
+	padding:20px;
+	font-family:"overpass",sans-serif;
+}
 
 .blockquote{
 	background-color:#f2f2f2;
