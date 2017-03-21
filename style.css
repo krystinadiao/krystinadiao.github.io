@@ -542,8 +542,6 @@ a.medium-button:hover{
 }
 
 
-::-moz-selection { background: #fffd72; }
-::selection { background: #fffd72; }
 
 
  .number{
@@ -1547,7 +1545,7 @@ b{
 
 @media screen and (min-width:850px) and (max-width: 990px){
 
-	
+
 	.about-image{
 		margin-top:30px;
 	}
