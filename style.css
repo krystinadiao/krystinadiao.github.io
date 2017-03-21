@@ -1432,7 +1432,11 @@ ul.takeaways{
 		color: red !important;
 }
 
-
+.lgmockupimg{
+	width:100%;
+	overflow:hidden;
+	margin:10px 0 60px 0px;
+}
 .mockupimg{
 	width:50%;
 	margin:10px 0 60px 0px;
