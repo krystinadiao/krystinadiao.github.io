@@ -49,7 +49,7 @@ body {
   height:100%;
   padding: 0;
   text-align: center;
-  font-family: 'overpass', sans-serif;
+  font-family: 'chivo', sans-serif;
 	font-weight:300;
   position: relative;
   margin: 0;
@@ -121,7 +121,7 @@ span.selected-li{
 }
 
 span.tools{
-	font-family:"overpass",sans-serif;
+	font-family:"chivo",sans-serif;
 	text-transform: capitalize;
 	font-size: 12px;
 	opacity:0.8;
@@ -135,7 +135,7 @@ span.tools{
 	color:#525252;
 	margin:auto;
 	width:80%;
-	font-family:'overpass', sans-serif !important;
+	font-family:'chivo', sans-serif !important;
 	font-size:30px;
 	font-weight:lighter;
 }
@@ -151,9 +151,9 @@ span.tools{
   font-size:40px;
   padding:60px;
 	text-align:left;
-	font-family:"Overpass", sans-serif;
+	font-family:"chivo", sans-serif;
 	color:#808080;
-
+	font-weight:300;
 	text-transform:none;
 
 	margin:auto;
@@ -231,6 +231,14 @@ a:hover span{
 	border:none;
 }
 
+.subsub span{
+	background-color:yellow;
+	color:black;
+	font-family:"karla";
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-size:14px;
+}
 
 .name span a{
 	background-color:yellow;
@@ -344,7 +352,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 	color:#525252;
 	margin:auto;
 	width:80%;
-	font-family:'overpass', sans-serif !important;
+	font-family:'chivo', sans-serif !important;
 	font-size:15px;
 	font-weight:lighter;
 	line-height:30px;
@@ -357,7 +365,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 	color:#525252;
 	margin:auto;
 	width:80%;
-	font-family:'overpass', sans-serif !important;
+	font-family:'chivo', sans-serif !important;
 	font-size:15px;
 	font-weight:lighter;
 	line-height:30px;
@@ -368,12 +376,11 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 .card-row{
 	max-width:1500px;
 	margin:auto;
-	margin-top:100px;
 }
 
 .card{
 	text-align:left;
-	font-family:"overpass",sans-serif;
+	font-family:"chivo",sans-serif;
 	font-size:13px;
 	font-weight:300;
 	display:inline-block;
@@ -387,9 +394,9 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 	-moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.20);
 	box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.20);*/
 
-	padding:20px;
+	padding:30px;
 	margin: 15px 5px 0px 5px;
-	width:15vw;
+	width:25vw;
 	height:300px;
 	position: relative;
   top: 0;
@@ -417,7 +424,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 .card2{
 
 	text-align:left;
-	font-family:"overpass",sans-serif;
+	font-family:"chivo",sans-serif;
 	font-size:13px;
 	font-weight:300;
 	display:inline-block;
@@ -554,7 +561,7 @@ a.medium-button:hover{
 	font-size:100px;
 	color:#f2f2f2;
 	font-weight:bold;
-	font-family:"overpass", sans-serif;
+	font-family:"chivo", sans-serif;
 
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
@@ -576,7 +583,7 @@ a.medium-button:hover{
  font-size:100px;
  color:#f2f2f2;
  font-weight:bold;
- font-family:"overpass", sans-serif;
+ font-family:"chivo", sans-serif;
 
  -webkit-user-select: none; /* Chrome/Safari */
  -moz-user-select: none; /* Firefox */
@@ -593,7 +600,7 @@ a.medium-button:hover{
 #portfolio{
 	margin-top:80px;
   font-size: 12px;
-  font-family:'overpass', sans-serif;
+  font-family:'chivo', sans-serif;
   color:#b6b6b6;
   text-align:center;
 }
@@ -640,7 +647,7 @@ a.btt:hover{
   line-height:22px !important;
   color:#393939;
   background-color:#fff;
-	font-family:"overpass", sans-serif;
+	font-family:"chivo", sans-serif;
 }
 
 .text-boxes img{
@@ -690,13 +697,13 @@ h7{
 }
 
 .subheader{
-	font-size:16px;
-	letter-spacing:1px;
+	font-size:20px;
+	/*letter-spacing:1px;*/
 	font-family:"karla" !important;
 	margin:40px 0 20px 0 !important;
 	font-weight:bold;
-	text-transform:uppercase;
-	color:#b5b5b5;
+	color:#333;
+
 }
 
 span.hello3{
@@ -728,9 +735,10 @@ span.hello-dark{
 	max-width:800px;
 	margin:auto;
 	padding:20px;
-	font-family:"overpass",sans-serif;
+	font-family:"chivo",sans-serif;
 	border-left:8px solid yellow;
 }
+
 
 .blockquote{
 	background-color:#f2f2f2;
@@ -762,11 +770,11 @@ h3{
 }
 
 h4{
-	font-size:40px;
+	font-size:35px;
 	line-height:50px;
 	text-transform:capitalize;;
 	text-align:left;
-	font-family:"karla", sans-serif;
+	font-family:"chivo", sans-serif;
 	margin: 100px 0px 50px -5px;
 	font-weight:lighter;
 }
@@ -793,9 +801,10 @@ h5{
 .caption{
 	text-align:center;
 margin-bottom:50px;
-	font-size:12px;
+	font-size:11px;
 font-family: "karla",sans-serif;
-font-weight:bold;
+
+color:#333;
 }
 
 .caption span{
@@ -981,7 +990,7 @@ a.image:hover{
   padding: 2px;
   font-size:12px;
   color:#333333;
-  font-family:"overpass", sans-serif;
+  font-family:"chivo", sans-serif;
   background-color:#f1f1f1;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
@@ -1000,7 +1009,7 @@ a.image:hover{
   padding: 5px;
   font-size:11px;
   color:#656565;
-  font-family:"overpass", sans-serif;;
+  font-family:"chivo", sans-serif;;
   background-color:#fff;
 
 	-webkit-transition: 0.5s; /* Safari */
@@ -1126,7 +1135,7 @@ body {
 	margin:50px 0px;
 	display: flex;
   justify-content: space-around;
-  font-family: "overpass", sans-serif;
+  font-family: "chivo", sans-serif;
 }
 
 
@@ -1135,7 +1144,7 @@ body {
 	display: flex;
   justify-content: space-around;
   height: 100vh;
-  font-family: "overpass", sans-serif;
+  font-family: "chivo", sans-serif;
   /*outline: 10px solid hotpink;*/
   /* turn above on to see the edge of panels */
 
@@ -1151,7 +1160,7 @@ body {
   padding: 2px;
   font-size:14px;
   color:#333333;
-  font-family:"overpass", sans-serif;
+  font-family:"chivo", sans-serif;
   background-color:#fff;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
@@ -1177,7 +1186,7 @@ body {
 .panel-text{
 	width:40vw !important;
 	text-align:left;
-	font-family:"overpass", sans-serif;
+	font-family:"chivo", sans-serif;
 	color:#fff;
 	font-size:16px;
 	padding:50px 10px 50px 100px;
@@ -1208,7 +1217,7 @@ text-align:left;
 	-webkit-flex: 1;
 				flex: 1;
 
-				font-family:"overpass", sans-serif;
+				font-family:"chivo", sans-serif;
 				color:#282828;
 				font-size:16px;
 				padding:50px;
@@ -1234,7 +1243,7 @@ text-align:left;
 .panel-text-dark{
 	width:40vw !important;
 	text-align:left;
-	font-family:"overpass", sans-serif;
+	font-family:"chivo", sans-serif;
 	color:#282828;
 	font-size:16px;
 	padding:50px 10px 50px 100px;
@@ -1250,7 +1259,9 @@ letter-spacing:1px;
 	margin:0 0 -10px -2px;
 }
 
-
+.twocollist{
+	padding:20px;
+}
 
 .panel-image{
 	width:55vw;
@@ -1276,8 +1287,8 @@ letter-spacing:1px;
 .panel-link-white a{
 	font-size:12px;
 	font-weight:bold;
-	text-transform:overpass;
-	font-family:"overpass";
+	text-transform:chivo;
+	font-family:"chivo";
 	letter-spacing:1px;
 
 	margin-top:20px;
@@ -1385,7 +1396,7 @@ letter-spacing:1px;
 		color:#525252;
 		margin:auto;
 		width:80%;
-		font-family:'overpass', sans-serif !important;
+		font-family:'chivo', sans-serif !important;
 		font-size:15px;
 		font-weight:lighter;
 		line-height:30px;
@@ -1475,8 +1486,8 @@ b{
 		font-size:12px;
 		padding:30px;
 		margin: 15px 5px 0px 5px;
-		width:35vw;
-		height:300px;
+		width:40vw;
+		height:350px;
 	}
 
 
@@ -1502,7 +1513,7 @@ b{
 	.panel-text{
 		width:40vw !important;
 		text-align:left;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#fff;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1511,7 +1522,7 @@ b{
 	.panel-text-dark{
 		width:40vw !important;
 		text-align:left;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1523,10 +1534,10 @@ b{
 
 	.card{
 		font-size:12px;
-		padding:30px;
+		padding:20px;
 		margin: 15px 5px 0px 5px;
 		width:30vw;
-		height:300px;
+		height:350px;
 	}
 
 	.mockupimg{
@@ -1584,7 +1595,7 @@ b{
 	.panel-text{
 		width:40vw !important;
 		text-align:left;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#fff;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1593,7 +1604,7 @@ b{
 	.panel-text-dark{
 		width:40vw !important;
 		text-align:left;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1686,8 +1697,8 @@ b{
 		font-size:13px;
 		padding:30px;
 		margin: 15px 5px 0px 5px;
-		width:22vw;
-		height:350px;
+		width:35vw;
+		height:330px;
 	}
 
 
@@ -1777,7 +1788,7 @@ b{
 	.panel-text{
 		width:100vw !important;
 		text-align:left;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#fff;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1786,7 +1797,7 @@ b{
 	.panel-text-dark{
 		width:100vw !important;
 		text-align:left;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1802,7 +1813,7 @@ b{
 		display: flex;
 	  justify-content: flex-start;
 	  height: 100vh;
-	  font-family: "overpass", sans-serif;
+	  font-family: "chivo", sans-serif;
 	  /*outline: 10px solid hotpink;*/
 	  /* turn above on to see the edge of panels */
 	}
@@ -1811,8 +1822,8 @@ b{
 			font-size:12px;
 			padding:20px;
 			margin: 15px 5px 0px 5px;
-			width:40vw;
-			height:250px;
+			width:30vw;
+			height:350px;
 		}
 		.card2{
 			font-size:12px;
@@ -1821,6 +1832,17 @@ b{
 			width:60vw;
 			height:300px;
 		}
+}
+
+
+@media screen and (min-width:550px) and (max-width:620px){
+.card{
+	font-size:12px;
+	padding:20px;
+	margin: 15px 5px 0px 5px;
+	width:50vw;
+	height:300px;
+}
 }
 
 
@@ -1851,7 +1873,7 @@ b{
 	.panel-text{
 		width:100vw !important;
 		text-align:left;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 
 		font-size:15px;
 		padding:50px 10px 50px 20px;
@@ -1860,7 +1882,7 @@ b{
 	.panel-text-dark{
 		width:100vw !important;
 		text-align:left;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 20px;
@@ -1882,16 +1904,16 @@ b{
 		margin-top:0;
 		margin-bottom:-10px;
 		font-size:20px;
-		font-family:"overpass", sans-serif;
+		font-family:"chivo", sans-serif;
 
 	}
 
 .card{
 	font-size:12px;
-	padding:15px;
+	padding:20px;
 	margin: 15px 5px 0px 5px;
 	width:70vw;
-	height:200px;
+	height:280px;
 }
 
 .card2{
