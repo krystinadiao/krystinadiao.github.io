@@ -347,11 +347,11 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 }
 
 .container-dark{
-	max-width:600px;
+	max-width:900px;
 	text-align:left;
 	color:#525252;
 	margin:auto;
-	width:80%;
+	width:55%;
 	font-family:'chivo', sans-serif !important;
 	font-size:15px;
 	font-weight:lighter;
@@ -699,6 +699,7 @@ h7{
 .subheader{
 	font-size:20px;
 	/*letter-spacing:1px;*/
+	text-transform:capitalize;
 	font-family:"karla" !important;
 	margin:40px 0 20px 0 !important;
 	font-weight:bold;
