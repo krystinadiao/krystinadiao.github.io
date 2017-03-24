@@ -374,7 +374,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 
 
 .card-row{
-	max-width:1500px;
+	max-width:1200px;
 	margin:auto;
 }
 
@@ -1536,7 +1536,7 @@ b{
 		font-size:12px;
 		padding:20px;
 		margin: 15px 5px 0px 5px;
-		width:30vw;
+		width:40vw;
 		height:350px;
 	}
 
@@ -1619,7 +1619,7 @@ b{
 		padding:30px;
 		margin: 15px 5px 0px 5px;
 		width:30vw;
-		height:300px;
+		height:350px;
 	}
 
 	.card2{
@@ -1822,7 +1822,7 @@ b{
 			font-size:12px;
 			padding:20px;
 			margin: 15px 5px 0px 5px;
-			width:30vw;
+			width:40vw;
 			height:350px;
 		}
 		.card2{
