@@ -1708,6 +1708,10 @@ b{
 
 @media screen and (max-width:680px){
 
+	.about-image{
+		margin:auto;
+	}
+
 	.header h1 span{
 	  border-bottom:4px solid yellow;
 		font-size:60px;
