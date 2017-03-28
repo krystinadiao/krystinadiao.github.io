@@ -74,7 +74,7 @@
 
   <div style="text-align:center; margin-left:100px;">
     <div class="tooltip">
-      <a href="bv-analytics.html"><i class="fa fa-angle-left arrow" aria-hidden="true"></i><span class="tooltip tooltiptext">Bazaarvoice Analytics</span></a>
+      <a href="pawtty.html"><i class="fa fa-angle-left arrow" aria-hidden="true"></i><span class="tooltip tooltiptext">Pawtty</span></a>
     </div>
     &nbsp;
     <div class="name">
@@ -82,7 +82,7 @@
     </div>
     &nbsp;
     <div class="tooltip">
-      <a href="doordash.html"><i class="fa fa-angle-right arrow" aria-hidden="true"></i><span class="tooltiptext">DoorDash</span></a>
+      <a href="netflix.html"><i class="fa fa-angle-right arrow" aria-hidden="true"></i><span class="tooltiptext">Netflix "Watch Together"</span></a>
     </div>
   </div>
 
@@ -96,7 +96,7 @@
     <div data-aos="fade-up">
       <img src="climb/previewdiag.jpg" class="lgmockupimg"/><br/>
 
-      <div data-aos="fade-up">
+
         <h1>
           Climb.gg<span style="font-family:overpass;color:#7a8c9f;">.</span>
         </h1>
@@ -106,18 +106,14 @@
 
       <div data-aos="fade-up">
         <img src="climb/mainmockup.png" style="padding-top:50px;" class="mockupimg"/><br/>
-      </div>
+
 
       <a class="medium-button" href="https://medium.com/@krystinadiao/designing-climb-gg-d23eddab7971" target="_blank">View on Medium</a>
-    </div>
+    </div></div>
 
     <br/><br/><br/><br/><br/>
 
-    <div data-aos="fade-up" >
-      <div class="blocktext">
-        <b>Note:</b> This application is still in the process of being created, and the development side is largely under wraps.
-        I will be documenting the ongoing design process of Climb.gg.
-      </div></div><br/><br/><br/><br/>
+
 
       <div data-aos="fade-up" >
         <div class="card-row">
@@ -199,11 +195,33 @@
 
             <h4>  <span class="hello-dark">context</span></h4>
 
-            <div class="subheader">What is the problem we are trying to solve?</div>
+            <div class="subheader">What is Climb?</div>
 
-            The e-sports market is growing by day. League of Legends alone has had nearly $30 million USD in prize money as of 2016.  Professional teams value precise analytical data beyond what the eye can capture by just rewatching the game. <br/><br/>
+            The e-sports market is growing by day. League of Legends alone has had nearly $30 million USD in prize money as of 2016.  Professional teams value precise analytical data beyond what the eye can capture by just rewatching the game.
+            <br/><br/>
+                At Climb, we want to harness large amounts of game data to create insights that people would not normally be able to view.  On top of that, we want to display this information smartly through a platform that allows analysts, coaches, and players to easily review their notes and the insights/events drawn from each game.
 
-            We want to harness large amounts of game data to create insights that people would not normally be able to view.  On top of that, we want to create a platform that allows analysts, coaches, players to easily review their notes and the insights/events drawn from each game.
+            <div class="subheader">The Problem (Hypothesis)</div>
+
+            Professional and collegiate-level League of Legends players, analysts, and coaches want an easy way to digest detailed, in-depth pieces of information from each match.
+            <ul class="takeaways">
+              <li>At a glance, users want to be able to view the highlights and important events that occurred.</li>
+              <li>When going in depth, users want to analyze and break down individual pieces of the game from various angles.
+            </ul>
+
+
+
+
+<div class="subheader">Goals</div>
+
+In this case study, I want to focus on identifying how I solved the problem of information overload on the main dashboard, which needs to display a wide range of information (map, video player, event creation, analytics, player info, team info, etc.) smartly and intuitively.
+
+<ul class="takeaways">
+  <li>Build an intuitive dashboard experience</li>
+  <li>Allow users to intake as much or as a little information as desired</li>
+  <li>Display large amounts of different information in a smart way</li>
+</ul>
+
 
           </div>
         </div>
@@ -291,23 +309,7 @@
 
 
 
-            <div class="subheader">Style Guide</div>
 
-          </div>
-          <div class="bigimg">
-
-            <img src="climb/styleguide.png" width="100%"/>
-          </div>
-
-
-
-          <div class="container-dark">
-
-            While developing this style guide, I kept in mind the importance of not only designing for the aesthetics, but also for functionality, consistency, and usability. <br/><br/>
-
-            Consistency within the app is important, along with consistency with the League of Legends community.  Picking a deep blue-gray base color relates the product to League of Legends.  Gold allows users to associate a victorious color, and success, with using Climb.  I chose to keep the palette relatively muted given the dashboard itself containing several other elements that draws color attention - the map, the champion icons, the player stats, etc.  Staying neutral and muted reduces detracting the user's attention from the gameplay and performance.<br/><br/>
-
-            When choosing fonts, I wanted to stick with rounded edged fonts, while maintaining readability.  It was important to choose fonts that would be very easy to read on a dark background and at different sizes.
 
             <div class="subheader">Wireframing</div>
 
@@ -385,6 +387,23 @@
             There is still a lot of work being done and to be done.  Immediate next design steps include building out different versions of the logo (someday that golden temporary C will be replaced by a real logo!), thinking about how to display graph view alongside the map view, exploring a fixed notes option, and researching better ways to allow the user to intake information, without having to view all the different data being displayed across the dashboard at all times.
 
 
+            <div class="subheader">Style Guide</div>
+
+          </div>
+          <div class="bigimg">
+
+            <img src="climb/styleguide.png" width="100%"/>
+          </div>
+
+
+
+          <div class="container-dark">
+
+            While developing this style guide, I kept in mind the importance of not only designing for the aesthetics, but also for functionality, consistency, and usability. <br/><br/>
+
+            Consistency within the app is important, along with consistency with the League of Legends community.  Picking a deep blue-gray base color relates the product to League of Legends.  Gold allows users to associate a victorious color, and success, with using Climb.  I chose to keep the palette relatively muted given the dashboard itself containing several other elements that draws color attention - the map, the champion icons, the player stats, etc.  Staying neutral and muted reduces detracting the user's attention from the gameplay and performance.<br/><br/>
+
+            When choosing fonts, I wanted to stick with rounded edged fonts, while maintaining readability.  It was important to choose fonts that would be very easy to read on a dark background and at different sizes.
           </div>
 
         </div>
@@ -398,7 +417,7 @@
 
           Though this project is still in progress, I have already learned and gained so much.  Just by being in a position where I am forced to take on different roles, explore different realms of design, I am able to flex my skills and learn new ones that I have never touched on before.  <br/><br/>
 
-          Working alongside engineers and product managers is something I will be doing for hte rest of my life, and this project gave me really good insight on how that collaboration works.  Learning how to really speak the language of developers, how they view a problem versus how a designer approaches it, and how to present a solution that fits the product's needs as well as the developer's viewpoints.
+          Working alongside engineers and product managers is something I will be doing for the rest of my life, and this project gave me really good insight on how that collaboration works.  Learning how to really speak the language of developers, how they view a problem versus how a designer approaches it, and how to present a solution that fits the product's needs as well as the developer's viewpoints.
 
 
           </div>
@@ -416,23 +435,29 @@
           <div class="container-footer">
             <nav>
               <ul class="viewmore">
-                <li class="column">
-                  <ul>
-                    <li><span class="selected-li">Climb.gg</span></li>
-                    <li><a href="league-mobile.html">League mobile</a></li>
-                    <li><a href="doordash.html">DoorDash</a></li>
+                 <li class="column">
+                   <ul>
+                     <li><a href="pawtty.html">Pawtty</a></li>
+                     <li><a href="doordash.html">DoorDash</a></li>
+                     <li><span class="selected-li">Climb.gg</span></li>
 
 
 
 
-                  </ul>
-                </li>
-                <li class="column">
-                  <ul>
-                    <li><a href="bv-interface.html">BV Interface</a></li>
-                    <li><a href="bv-analytics.html">BV Analytics</a></li>
-                    <li><a href="pawtty.html">Pawtty</a></li>
-                  </ul>
+
+
+
+
+                   </ul>
+                 </li>
+                 <li class="column">
+                   <ul>
+                           <li><a href="bv-interface.html">BV Interface</a></li>
+
+                     <li><a href="bv-analytics.html">BV Analytics</a></li>
+                          <li><a href="netflix.html">Netflix</a></li>
+                       <li><a href="league-mobile.html">League mobile</a></li>
+                   </ul>
 
                 </div>
               </nav>
