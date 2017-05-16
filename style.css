@@ -352,7 +352,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 .container-dark{
 	max-width:900px;
 	text-align:left;
-	color:#525252;
+	color:#000;
 	margin:auto;
 	width:50%;
 	font-family:'chivo', sans-serif !important;
