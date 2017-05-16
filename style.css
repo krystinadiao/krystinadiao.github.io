@@ -49,7 +49,7 @@ body {
   height:100%;
   padding: 0;
   text-align: center;
-  font-family: 'Palanquin', sans-serif;
+  font-family: 'chivo', sans-serif;
 	font-weight:300;
   position: relative;
   margin: 0;
@@ -121,7 +121,7 @@ span.selected-li{
 }
 
 span.tools{
-	font-family:"Palanquin",sans-serif;
+	font-family:"chivo",sans-serif;
 	text-transform: capitalize;
 	font-size: 12px;
 	opacity:0.8;
@@ -135,7 +135,7 @@ span.tools{
 	color:#525252;
 	margin:auto;
 	width:80%;
-	font-family:'Palanquin', sans-serif !important;
+	font-family:'chivo', sans-serif !important;
 	font-size:30px;
 	font-weight:lighter;
 }
@@ -355,7 +355,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 	color:#525252;
 	margin:auto;
 	width:50%;
-	font-family:'Palanquin', sans-serif !important;
+	font-family:'chivo', sans-serif !important;
 	font-size:16px;
 	font-weight:lighter;
 	line-height:30px;
@@ -368,7 +368,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 	color:#525252;
 	margin:auto;
 	width:80%;
-	font-family:'Palanquin', sans-serif !important;
+	font-family:'chivo', sans-serif !important;
 	font-size:15px;
 	font-weight:lighter;
 	line-height:30px;
@@ -383,7 +383,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 
 .card{
 	text-align:left;
-	font-family:"Palanquin",sans-serif;
+	font-family:"chivo",sans-serif;
 	font-size:14px;
 	font-weight:300;
 	display:inline-block;
@@ -434,7 +434,7 @@ background-image: -webkit-linear-gradient(deg, #80A8F5 20%, #989CFF 50%, #FF987C
 .card2{
 
 	text-align:left;
-	font-family:"Palanquin",sans-serif;
+	font-family:"chivo",sans-serif;
 	font-size:13px;
 	font-weight:300;
 	display:inline-block;
@@ -564,7 +564,7 @@ a.medium-button:hover{
 	font-size:100px;
 	color:#f2f2f2;
 	font-weight:bold;
-	font-family:"Palanquin", sans-serif;
+	font-family:"chivo", sans-serif;
 
 	-webkit-user-select: none; /* Chrome/Safari */
 	-moz-user-select: none; /* Firefox */
@@ -586,7 +586,7 @@ a.medium-button:hover{
  font-size:100px;
  color:#f2f2f2;
  font-weight:bold;
- font-family:"Palanquin", sans-serif;
+ font-family:"chivo", sans-serif;
 
  -webkit-user-select: none; /* Chrome/Safari */
  -moz-user-select: none; /* Firefox */
@@ -603,7 +603,7 @@ a.medium-button:hover{
 #portfolio{
 	margin-top:80px;
   font-size: 12px;
-  font-family:'Palanquin', sans-serif;
+  font-family:'chivo', sans-serif;
   color:#b6b6b6;
   text-align:center;
 }
@@ -650,7 +650,7 @@ a.btt:hover{
   line-height:22px !important;
   color:#393939;
   background-color:#fff;
-	font-family:"Palanquin", sans-serif;
+	font-family:"chivo", sans-serif;
 }
 
 .text-boxes img{
@@ -739,7 +739,7 @@ span.hello-dark{
 	max-width:800px;
 	margin:auto;
 	padding:20px;
-	font-family:"Palanquin",sans-serif;
+	font-family:"chivo",sans-serif;
 	border-left:8px solid yellow;
 }
 
@@ -781,7 +781,7 @@ h4{
 	line-height:50px;
 	text-transform:capitalize;;
 	text-align:left;
-	font-family:"Palanquin", sans-serif;
+	font-family:"chivo", sans-serif;
 	margin: 100px 0px 50px -5px;
 	font-weight:lighter;
 }
@@ -997,7 +997,7 @@ a.image:hover{
   padding: 2px;
   font-size:12px;
   color:#333333;
-  font-family:"Palanquin", sans-serif;
+  font-family:"chivo", sans-serif;
   background-color:#f1f1f1;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
@@ -1016,7 +1016,7 @@ a.image:hover{
   padding: 5px;
   font-size:11px;
   color:#656565;
-  font-family:"Palanquin", sans-serif;;
+  font-family:"chivo", sans-serif;;
   background-color:#fff;
 
 	-webkit-transition: 0.5s; /* Safari */
@@ -1149,7 +1149,7 @@ body {
   justify-content: space-around;
   min-height: 110vh;
 	overflow:inherit;
-  font-family: "Palanquin", sans-serif;
+  font-family: "chivo", sans-serif;
   /*outline: 10px solid hotpink;*/
   /* turn above on to see the edge of panels */
 
@@ -1166,7 +1166,7 @@ body {
   padding: 2px;
   font-size:14px;
   color:#333333;
-  font-family:"Palanquin", sans-serif;
+  font-family:"chivo", sans-serif;
   background-color:#fff;
 	-webkit-transition: 0.5s; /* Safari */
 	transition: 0.5s;
@@ -1189,7 +1189,7 @@ body {
 .panel-text{
 	width:40vw !important;
 	text-align:left;
-	font-family:"Palanquin", sans-serif;
+	font-family:"chivo", sans-serif;
 	color:#fff;
 	font-size:16px;
 	padding:50px 10px 50px 100px;
@@ -1220,7 +1220,7 @@ text-align:left;
 	-webkit-flex: 1;
 				flex: 1;
 
-				font-family:"Palanquin", sans-serif;
+				font-family:"chivo", sans-serif;
 				color:#282828;
 				font-size:16px;
 				padding:50px;
@@ -1261,7 +1261,7 @@ text-align:left;
 	width:80vw !important;
 	margin:auto;
 	text-align:left;
-	font-family:"Palanquin", sans-serif;
+	font-family:"chivo", sans-serif;
 	color:#282828;
 	font-size:13px;
 	padding:20px;
@@ -1310,7 +1310,7 @@ text-align:left;
 .panel-text-dark{
 	width:40vw !important;
 	text-align:left;
-	font-family:"Palanquin", sans-serif;
+	font-family:"chivo", sans-serif;
 	color:#282828;
 	font-size:16px;
 	padding:50px 10px 50px 100px;
@@ -1462,7 +1462,7 @@ letter-spacing:1px;
 		color:#525252;
 		margin:auto;
 		width:80%;
-		font-family:'Palanquin', sans-serif !important;
+		font-family:'chivo', sans-serif !important;
 		font-size:15px;
 		font-weight:lighter;
 		line-height:30px;
@@ -1582,7 +1582,7 @@ b{
 	.panel-text{
 		width:40vw !important;
 		text-align:left;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#fff;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1591,7 +1591,7 @@ b{
 	.panel-text-dark{
 		width:40vw !important;
 		text-align:left;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1602,7 +1602,7 @@ b{
 	}
 
 	.card{
-		font-size:12px;
+		font-size:14px;
 		padding:20px;
 		margin: 15px 5px 0px 5px;
 		width:40vw;
@@ -1667,7 +1667,7 @@ b{
 	.panel-text{
 		width:40vw !important;
 		text-align:left;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#fff;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1676,7 +1676,7 @@ b{
 	.panel-text-dark{
 		width:40vw !important;
 		text-align:left;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1687,7 +1687,7 @@ b{
 	}
 
 	.card{
-		font-size:12px;
+		font-size:14px;
 		padding:30px;
 		margin: 15px 5px 0px 5px;
 		width:30vw;
@@ -1695,7 +1695,7 @@ b{
 	}
 
 	.card2{
-		font-size:12px;
+		font-size:14px;
 		padding:30px;
 		margin: 15px 5px 0px 5px;
 		width:40vw;
@@ -1771,7 +1771,7 @@ b{
 
 
 	.card{
-		font-size:13px;
+		font-size:14px;
 		padding:30px;
 		margin: 15px 5px 0px 5px;
 		width:30vw;
@@ -1779,7 +1779,7 @@ b{
 	}
 
 	.card2{
-		font-size:13px;
+		font-size:14px;
 		padding:30px;
 		margin: 15px 5px 0px 5px;
 		width:35vw;
@@ -1896,7 +1896,7 @@ b{
 	.panel-text{
 		width:100vw !important;
 		text-align:left;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#fff;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1905,7 +1905,7 @@ b{
 	.panel-text-dark{
 		width:100vw !important;
 		text-align:left;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 50px;
@@ -1921,20 +1921,20 @@ b{
 		display: flex;
 	  justify-content: flex-start;
 	  min-height: 100vh;
-	  font-family: "Palanquin", sans-serif;
+	  font-family: "chivo", sans-serif;
 	  /*outline: 10px solid hotpink;*/
 	  /* turn above on to see the edge of panels */
 	}
 
 		.card{
-			font-size:12px;
+			font-size:14px;
 			padding:20px;
 			margin: 15px 5px 0px 5px;
 			width:40vw;
 			height:350px;
 		}
 		.card2{
-			font-size:12px;
+			font-size:14px;
 			padding:20px;
 			margin: 15px 5px 0px 5px;
 			width:60vw;
@@ -1945,7 +1945,7 @@ b{
 
 @media screen and (min-width:550px) and (max-width:620px){
 .card{
-	font-size:12px;
+	font-size:13px;
 	padding:20px;
 	margin: 15px 5px 0px 5px;
 	width:50vw;
@@ -1981,7 +1981,7 @@ b{
 	.panel-text{
 		width:100vw !important;
 		text-align:left;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 
 		font-size:15px;
 		padding:50px 10px 50px 20px;
@@ -1990,7 +1990,7 @@ b{
 	.panel-text-dark{
 		width:100vw !important;
 		text-align:left;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 		color:#282828;
 		font-size:15px;
 		padding:50px 10px 50px 20px;
@@ -2012,7 +2012,7 @@ b{
 		margin-top:0;
 		margin-bottom:-10px;
 		font-size:20px;
-		font-family:"Palanquin", sans-serif;
+		font-family:"chivo", sans-serif;
 
 	}
 
